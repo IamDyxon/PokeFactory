@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokeFactory</title>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <style>
+    body { font-family: sans-serif; margin: 2rem; background: #f0f0f0; }
+    header {
+      background: #ddd;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .logo {
+      max-height: 150px;
+      height: auto;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .left-column, .right-column {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    #gameSelect, #pokemonSelect {
+      width: 60%;
+      max-width: 300px;
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      justify-content: center;
+    }
+    .stats span {
+      background: #eee;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
+    #copyBtn {
+      background: #ff0000;
+      border: 2px solid #ff0000;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/pokefactory_logo.png" alt="PokeFactory" class="logo" />
+  </header>
+  <main>
+    <div class="left-column">
+      <div class="form-group">
+        <label for="gameSelect">Juego</label><br>
+        <select id="gameSelect">
+          <option value="">Selecciona un juego</option>
+          <option value="scarlet-violet">Pokémon Escarlata y Púrpura</option>
+        </select>
+      </div>
+      <div class="form-group" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+        <label for="pokemonSelect">Pokémon</label>
+        <select id="pokemonSelect" disabled>
+          <option value="">Selecciona un Pokémon</option>
+        </select>
+        <label style="display: flex; align-items: center; gap: 0.2rem;">
+          <input type="checkbox" id="shinyCheckbox" /> Shiny
+        </label>
+      </div>
+      <div id="pokemonInfo" style="margin-top: 1rem;"></div>
+    </div>
+    <div class="right-column">
+      <h3>Pokémon Set</h3>
+      <textarea id="copyText" rows="10" style="width: 100%;"></textarea>
+      <button id="copyBtn">Copiar Set</button>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
