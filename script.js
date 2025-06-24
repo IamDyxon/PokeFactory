@@ -37,6 +37,18 @@ function mapType(typeEn) {
   return map[typeEn] || typeEn;
 }
 
+function formatPokemonOption(option) {
+  if (!option.id) return option.text;
+  const spriteUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${option.id}.png`;
+  return $(`
+    <span><img src="${spriteUrl}" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px;" />${option.text}</span>
+  `);
+}
+
+function formatPokemonSelection(option) {
+  return option.text;
+}
+
 function renderPokemonInfo() {
   const isShiny = document.getElementById('shinyCheckbox').checked;
   const sprite = isShiny ? currentPokemon.shiny : currentPokemon.sprite;
@@ -85,11 +97,16 @@ gameSelect.addEventListener('change', async () => {
   if (gameSelect.value === "scarlet-violet") {
     for (let id of paldeaIds) {
       const name = await fetchPokemonName(id);
-      const opt = new Option(name, id);
+      const opt = new Option(name, id, false, false);
       pokemonSelect.append(opt);
     }
     pokemonSelect.prop('disabled', false);
-    pokemonSelect.select2({ width: '100%', placeholder: 'Selecciona un Pokémon' });
+    pokemonSelect.select2({
+      width: '100%',
+      placeholder: 'Selecciona un Pokémon',
+      templateResult: formatPokemonOption,
+      templateSelection: formatPokemonSelection
+    });
   }
   updateCopyText();
 });
@@ -113,3 +130,47 @@ document.getElementById('copyBtn').addEventListener('click', () => {
   document.execCommand('copy');
   alert("¡Texto copiado!");
 });
+
+
+const nicknameInput = document.getElementById('nickname');
+const tradeCodeInput = document.getElementById('tradeCode');
+
+nicknameInput.addEventListener('input', () => {
+  nicknameInput.value = nicknameInput.value.replace(/[^a-zA-Z0-9]/g, '').substring(0, 10);
+  updateCopyText();
+});
+
+tradeCodeInput.addEventListener('input', () => {
+  tradeCodeInput.value = tradeCodeInput.value.replace(/\D/g, '').substring(0, 8);
+  updateCopyText();
+});
+
+// Reemplazamos la función updateCopyText
+updateCopyText = function() {
+  const game = gameSelect.value;
+  const pokemonName = currentPokemon ? currentPokemon.name : "";
+  const isShiny = document.getElementById('shinyCheckbox').checked;
+  const nickname = nicknameInput.value;
+  const tradeCode = tradeCodeInput.value;
+
+  let text = "";
+  if (game) {
+    text += `%trade`;
+    if (pokemonName) {
+      let line = "";
+      if (tradeCode) line += tradeCode + " ";
+      if (nickname) {
+        line += nickname + " (" + pokemonName + ")";
+      } else if (tradeCode) {
+        line += "(" + pokemonName + ")";
+      } else {
+        line += pokemonName;
+      }
+      text += ` ${line}`;
+    }
+    if (isShiny) {
+      text += `\nShiny: Yes`;
+    }
+  }
+  document.getElementById('copyText').value = text.trim();
+};
