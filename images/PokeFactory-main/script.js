@@ -1,3 +1,4 @@
+
 const gameSelect = document.getElementById('gameSelect');
 const pokemonSelect = document.getElementById('pokemonSelect');
 const shinyCheckbox = document.getElementById('shinyCheckbox');
@@ -49,6 +50,7 @@ $(pokemonSelect).on('select2:select', function (e) {
     { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
   ];
   currentPokemon = pokemons.find(p => p.name === selectedName);
+  loadAbilities(currentPokemon.id);
   renderPokemonInfo();
   const gender = genderSelect.value;
 const ability = abilitySelect.value;
@@ -159,14 +161,16 @@ function updateCopyText() {
   }
 
   
+  
   const gender = genderSelect.value;
-  const ability = abilitySelect.value;
+const ability = abilitySelect.value;
+const translatedAbility = abilityTranslationMap[ability] || ability;
 
   if (gender) {
     text += `\nGender: ${gender}`;
   }
   if (ability) {
-    text += `\nAbility: ${ability}`;
+    text += `\nAbility: ${translatedAbility}`;
   }
 copyText.value = text.trim();
 }
@@ -195,89 +199,4 @@ function loadAbilities(pokemonId) {
         });
       });
     });
-}
-let abilityMap = {}; // español -> inglés
-
-function loadAbilities(pokemonId) {
-  axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
-    .then(response => {
-      const abilityData = response.data.abilities;
-      abilitySelect.innerHTML = '<option value="">Selecciona una habilidad</option>';
-      abilityMap = {}; // limpiar mapa
-
-      Promise.all(abilityData.map(ab => axios.get(ab.ability.url))).then(responses => {
-        responses.forEach((res, i) => {
-          const englishName = res.data.name;
-          const spanishEntry = res.data.names.find(n => n.language.name === "es");
-          const spanishName = spanishEntry ? spanishEntry.name : englishName;
-
-          abilityMap[spanishName] = englishName;
-
-          const option = document.createElement('option');
-          option.value = spanishName;
-          option.textContent = `${spanishName}`;
-          abilitySelect.appendChild(option);
-        });
-      });
-    });
-}
-
-$(pokemonSelect).on('select2:select', function (e) {
-  const selectedName = e.params.data.id;
-  const pokemons = [
-    { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
-    { id: 909, name: "Fuecoco", stats: { hp: 67, atk: 45, def: 59, spAtk: 63, spDef: 40, speed: 36 }, types: ["Fire"] },
-    { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
-  ];
-  currentPokemon = pokemons.find(p => p.name === selectedName);
-  renderPokemonInfo();
-  if (currentPokemon) {
-    loadAbilities(currentPokemon.id);
-  }
-  updateCopyText();
-});
-
-function updateCopyText() {
-  const game = gameSelect.value;
-  const pokemonName = currentPokemon ? currentPokemon.name : "";
-  const isShiny = shinyCheckbox.checked;
-  const nickname = nicknameInput.value;
-  const tradeCode = tradeCodeInput.value;
-  const language = languageSelect.value;
-  const level = levelSelect.value;
-  const gender = genderSelect.value;
-  const abilityEs = abilitySelect.value;
-  const abilityEn = abilityMap[abilityEs] || abilityEs;
-
-  let text = "";
-
-  if (game && pokemonName) {
-    text += `%trade`;
-    let line = "";
-    if (tradeCode) line += tradeCode + " ";
-    if (nickname) {
-      line += nickname + " (" + pokemonName + ")";
-    } else {
-      line += pokemonName;
-    }
-    text += ` ${line}`;
-
-    if (isShiny) {
-      text += `\nShiny: Yes`;
-    }
-    if (language) {
-      text += `\nLanguage: ${language}`;
-    }
-    if (level) {
-      text += `\nLevel: ${level}`;
-    }
-    if (gender) {
-      text += `\nGender: ${gender}`;
-    }
-    if (abilityEs) {
-      text += `\nAbility: ${abilityEn}`;
-    }
-  }
-
-  copyText.value = text.trim();
 }
