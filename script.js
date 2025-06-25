@@ -6,6 +6,8 @@ const nicknameInput = document.getElementById('nickname');
 const tradeCodeInput = document.getElementById('tradeCode');
 const languageSelect = document.getElementById('languageSelect');
 const levelSelect = document.getElementById('levelSelect');
+const genderSelect = document.getElementById('genderSelect');
+const abilitySelect = document.getElementById('abilitySelect');
 const copyText = document.getElementById('copyText');
 const pokemonInfo = document.getElementById('pokemonInfo');
 const copyBtn = document.getElementById('copyBtn');
@@ -40,6 +42,7 @@ gameSelect.addEventListener('change', function() {
 });
 
 $(pokemonSelect).on('select2:select', function (e) {
+    
   const selectedName = e.params.data.id;
   const pokemons = [
     { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
@@ -47,7 +50,18 @@ $(pokemonSelect).on('select2:select', function (e) {
     { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
   ];
   currentPokemon = pokemons.find(p => p.name === selectedName);
+  loadAbilities(currentPokemon.id);
   renderPokemonInfo();
+  const gender = genderSelect.value;
+const ability = abilitySelect.value;
+
+if (gender) {
+  text += `\nGender: ${gender}`;
+}
+if (ability) {
+  text += `\nAbility: ${ability}`;
+}
+
   updateCopyText();
 });
 
@@ -59,6 +73,8 @@ nicknameInput.addEventListener('input', updateCopyText);
 tradeCodeInput.addEventListener('input', updateCopyText);
 languageSelect.addEventListener('change', updateCopyText);
 levelSelect.addEventListener('change', updateCopyText);
+genderSelect.addEventListener('change', updateCopyText);
+abilitySelect.addEventListener('change', updateCopyText);
 
 copyBtn.addEventListener('click', function() {
   copyText.select();
@@ -115,6 +131,10 @@ function updateCopyText() {
   const tradeCode = tradeCodeInput.value;
   const language = languageSelect.value;
   const level = levelSelect.value;
+  
+  
+
+
 
   let text = "";
 
@@ -140,7 +160,19 @@ function updateCopyText() {
     }
   }
 
-  copyText.value = text.trim();
+  
+  
+  const gender = genderSelect.value;
+const ability = abilitySelect.value;
+const translatedAbility = abilityTranslationMap[ability] || ability;
+
+  if (gender) {
+    text += `\nGender: ${gender}`;
+  }
+  if (ability) {
+    text += `\nAbility: ${translatedAbility}`;
+  }
+copyText.value = text.trim();
 }
 
 function formatState (state) {
@@ -150,4 +182,21 @@ function formatState (state) {
     return $('<span><img src="' + img + '" class="img-flag" style="width:20px;"/> ' + state.text + '</span>');
   }
   return state.text;
+}
+
+function loadAbilities(pokemonId) {
+  axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
+    .then(response => {
+      const abilityUrls = response.data.abilities.map(ab => ab.ability.url);
+      abilitySelect.innerHTML = '<option value="">Selecciona una habilidad</option>';
+      Promise.all(abilityUrls.map(url => axios.get(url))).then(responses => {
+        responses.forEach(res => {
+          const spanishEntry = res.data.names.find(n => n.language.name === "es");
+          if (spanishEntry) {
+            const translated = spanishEntry.name;
+            abilitySelect.innerHTML += `<option value="${translated}">${translated}</option>`;
+          }
+        });
+      });
+    });
 }
