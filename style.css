@@ -1,0 +1,17 @@
+/* style.css generado automáticamente */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.input-group select {
+  padding: 0.4rem;
+  min-width: 180px;
+}
+.select2-results__option img,
+.select2-selection__rendered img {
+  vertical-align: middle;
+  margin-right: 6px;
+  height: 28px;
+  width: 28px;
+}
