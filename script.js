@@ -7,11 +7,23 @@ const languageSelect = document.getElementById('languageSelect');
 const levelSelect = document.getElementById('levelSelect');
 const genderSelect = document.getElementById('genderSelect');
 const abilitySelect = document.getElementById('abilitySelect');
+const natureSelect = document.getElementById('natureSelect');
+const itemSelect = document.getElementById('itemSelect');
 const copyText = document.getElementById('copyText');
 const pokemonInfo = document.getElementById('pokemonInfo');
+const metDateInput = document.getElementById('metDate');
+let metDateTouched = false;
+if (metDateInput) {
+  metDateInput.addEventListener('change', () => {
+    metDateTouched = true;
+    updateCopyText();
+  });
+}
+
 const copyBtn = document.getElementById('copyBtn');
 
 let currentPokemon = null;
+let abilityMap = {}; // español -> inglés
 
 gameSelect.addEventListener('change', function() {
   const game = gameSelect.value;
@@ -41,7 +53,6 @@ gameSelect.addEventListener('change', function() {
 });
 
 $(pokemonSelect).on('select2:select', function (e) {
-    
   const selectedName = e.params.data.id;
   const pokemons = [
     { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
@@ -50,15 +61,10 @@ $(pokemonSelect).on('select2:select', function (e) {
   ];
   currentPokemon = pokemons.find(p => p.name === selectedName);
   renderPokemonInfo();
-  const gender = genderSelect.value;
-const ability = abilitySelect.value;
 
-if (gender) {
-  text += `\nGender: ${gender}`;
-}
-if (ability) {
-  text += `\nAbility: ${ability}`;
-}
+  if (currentPokemon) {
+    loadAbilities(currentPokemon.id);
+  }
 
   updateCopyText();
 });
@@ -73,6 +79,8 @@ languageSelect.addEventListener('change', updateCopyText);
 levelSelect.addEventListener('change', updateCopyText);
 genderSelect.addEventListener('change', updateCopyText);
 abilitySelect.addEventListener('change', updateCopyText);
+natureSelect.addEventListener('change', updateCopyText);
+itemSelect.addEventListener('change', updateCopyText);
 
 copyBtn.addEventListener('click', function() {
   copyText.select();
@@ -88,26 +96,12 @@ function renderPokemonInfo() {
   const isShiny = shinyCheckbox.checked;
   const spriteUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${isShiny ? 'shiny/' : ''}${currentPokemon.id}.png`;
   const typeMap = {
-    "Grass": "planta",
-    "Fire": "fuego",
-    "Water": "agua",
-    "Bug": "bicho",
-    "Dragon": "dragón",
-    "Electric": "eléctrico",
-    "Ghost": "fantasma",
-    "Fairy": "hada",
-    "Ice": "hielo",
-    "Fighting": "lucha",
-    "Normal": "normal",
-    "Psychic": "psíquico",
-    "Rock": "roca",
-    "Dark": "siniestro",
-    "Ground": "tierra",
-    "Poison": "veneno",
-    "Flying": "volador",
-    "Steel": "acero",
-    "Astral": "astral"
+    "Grass": "planta", "Fire": "fuego", "Water": "agua", "Bug": "bicho", "Dragon": "dragón",
+    "Electric": "eléctrico", "Ghost": "fantasma", "Fairy": "hada", "Ice": "hielo", "Fighting": "lucha",
+    "Normal": "normal", "Psychic": "psíquico", "Rock": "roca", "Dark": "siniestro", "Ground": "tierra",
+    "Poison": "veneno", "Flying": "volador", "Steel": "acero", "Astral": "astral"
   };
+
   let html = `<img src="${spriteUrl}" alt="${currentPokemon.name}" style="max-width:200px;" /><div class="stats">`;
   for (const [stat, value] of Object.entries(currentPokemon.stats)) {
     html += `<span>${stat.toUpperCase()}: ${value}</span>`;
@@ -129,10 +123,11 @@ function updateCopyText() {
   const tradeCode = tradeCodeInput.value;
   const language = languageSelect.value;
   const level = levelSelect.value;
-  
-  
-
-
+  const gender = genderSelect.value;
+  const abilityEs = abilitySelect.value;
+  const abilityEn = abilityMap[abilityEs] || abilityEs;
+  const nature = natureSelect.value;
+  const item = itemSelect.value;
 
   let text = "";
 
@@ -147,31 +142,33 @@ function updateCopyText() {
     }
     text += ` ${line}`;
 
-    if (isShiny) {
-      text += `\nShiny: Yes`;
+    if (isShiny) text += `\nShiny: Yes`;
+    if (language) text += `\nLanguage: ${language}`;
+    if (level) text += `\nLevel: ${level}`;
+    if (gender) text += `\nGender: ${gender}`;
+    if (abilityEs) text += `\nAbility: ${abilityEn.split(" ")[0]}`;
+    if (nature) {
+      const match = nature.match(/^(\w+)/);
+      const natureName = match ? match[1] : nature;
+      text += `\nNature: ${natureName}`;
     }
-    if (language) {
-      text += `\nLanguage: ${language}`;
-    }
-    if (level) {
-      text += `\nLevel: ${level}`;
-    }
+    if (item) text += `\nItem: ${item}`;
   }
 
-  
-  const gender = genderSelect.value;
-  const ability = abilitySelect.value;
-
-  if (gender) {
-    text += `\nGender: ${gender}`;
+  if (scaleTouched && currentPokemon) {
+    const scale = scaleRange.value;
+    text += `\n.Scale=${scale}`;
   }
-  if (ability) {
-    text += `\nAbility: ${ability}`;
+  if (metDateTouched && currentPokemon && metDateInput && metDateInput.value) {
+    const dateValue = metDateInput.value;
+    if (dateValue >= "2016-01-01") {
+      text += `\n.MetDate=${dateValue.replace(/-/g, '')}`;
+    }
   }
-copyText.value = text.trim();
+  copyText.value = text.trim();
 }
 
-function formatState (state) {
+function formatState(state) {
   if (!state.id) return state.text;
   const img = $(state.element).data('image');
   if (img) {
@@ -179,24 +176,6 @@ function formatState (state) {
   }
   return state.text;
 }
-
-function loadAbilities(pokemonId) {
-  axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
-    .then(response => {
-      const abilityUrls = response.data.abilities.map(ab => ab.ability.url);
-      abilitySelect.innerHTML = '<option value="">Selecciona una habilidad</option>';
-      Promise.all(abilityUrls.map(url => axios.get(url))).then(responses => {
-        responses.forEach(res => {
-          const spanishEntry = res.data.names.find(n => n.language.name === "es");
-          if (spanishEntry) {
-            const translated = spanishEntry.name;
-            abilitySelect.innerHTML += `<option value="${translated}">${translated}</option>`;
-          }
-        });
-      });
-    });
-}
-let abilityMap = {}; // español -> inglés
 
 function loadAbilities(pokemonId) {
   axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
@@ -222,62 +201,15 @@ function loadAbilities(pokemonId) {
     });
 }
 
-$(pokemonSelect).on('select2:select', function (e) {
-  const selectedName = e.params.data.id;
-  const pokemons = [
-    { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
-    { id: 909, name: "Fuecoco", stats: { hp: 67, atk: 45, def: 59, spAtk: 63, spDef: 40, speed: 36 }, types: ["Fire"] },
-    { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
-  ];
-  currentPokemon = pokemons.find(p => p.name === selectedName);
-  renderPokemonInfo();
-  if (currentPokemon) {
-    loadAbilities(currentPokemon.id);
-  }
-  updateCopyText();
-});
 
-function updateCopyText() {
-  const game = gameSelect.value;
-  const pokemonName = currentPokemon ? currentPokemon.name : "";
-  const isShiny = shinyCheckbox.checked;
-  const nickname = nicknameInput.value;
-  const tradeCode = tradeCodeInput.value;
-  const language = languageSelect.value;
-  const level = levelSelect.value;
-  const gender = genderSelect.value;
-  const abilityEs = abilitySelect.value;
-  const abilityEn = abilityMap[abilityEs] || abilityEs;
+const scaleRange = document.getElementById('scaleRange');
+const scaleValue = document.getElementById('scaleValue');
+let scaleTouched = false;
 
-  let text = "";
-
-  if (game && pokemonName) {
-    text += `%trade`;
-    let line = "";
-    if (tradeCode) line += tradeCode + " ";
-    if (nickname) {
-      line += nickname + " (" + pokemonName + ")";
-    } else {
-      line += pokemonName;
-    }
-    text += ` ${line}`;
-
-    if (isShiny) {
-      text += `\nShiny: Yes`;
-    }
-    if (language) {
-      text += `\nLanguage: ${language}`;
-    }
-    if (level) {
-      text += `\nLevel: ${level}`;
-    }
-    if (gender) {
-      text += `\nGender: ${gender}`;
-    }
-    if (abilityEs) {
-      text += `\nAbility: ${abilityEn}`;
-    }
-  }
-
-  copyText.value = text.trim();
+if (scaleRange && scaleValue) {
+  scaleRange.addEventListener('input', () => {
+    scaleTouched = true;
+    scaleValue.value = scaleRange.value;
+    updateCopyText();
+  });
 }
