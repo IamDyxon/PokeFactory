@@ -64,6 +64,7 @@ $(pokemonSelect).on('select2:select', function (e) {
 
   if (currentPokemon) {
     loadAbilities(currentPokemon.id);
+  loadMoves(currentPokemon.id);
   }
 
   updateCopyText();
@@ -165,7 +166,16 @@ function updateCopyText() {
       text += `\n.MetDate=${dateValue.replace(/-/g, '')}`;
     }
   }
-  copyText.value = text.trim();
+  
+  const selectedMoves = moveDropdowns.map(d => d.value).filter(v => v);
+  if (selectedMoves.length > 0) {
+    selectedMoves.forEach(mov => {
+      const eng = moveNameMap[mov] || mov;
+      const formatted = eng.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+      text += `\n- ${formatted}`;
+    });
+  }
+copyText.value = text.trim();
 }
 
 function formatState(state) {
@@ -212,4 +222,56 @@ if (scaleRange && scaleValue) {
     scaleValue.value = scaleRange.value;
     updateCopyText();
   });
+}
+
+
+const moveDropdowns = [
+  document.getElementById('move1'),
+  document.getElementById('move2'),
+  document.getElementById('move3'),
+  document.getElementById('move4')
+];
+let allMoves = [];
+let moveNameMap = {};
+
+moveDropdowns.forEach(dropdown => {
+  dropdown.addEventListener('change', updateMoveDropdowns);
+});
+
+function loadMoves(pokemonId) {
+  axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
+    .then(res => {
+      const movePromises = res.data.moves.map(m => axios.get(m.move.url));
+      return Promise.all(movePromises);
+    })
+    .then(responses => {
+      allMoves = [];
+      moveNameMap = {};
+      responses.forEach(response => {
+        const englishName = response.data.name;
+        const spanishEntry = response.data.names.find(n => n.language.name === "es");
+        const spanishName = spanishEntry ? spanishEntry.name : englishName;
+        moveNameMap[spanishName] = englishName;
+        if (!allMoves.includes(spanishName)) allMoves.push(spanishName);
+      });
+      updateMoveDropdowns();
+    });
+}
+
+function updateMoveDropdowns() {
+  const selected = moveDropdowns.map(d => d.value).filter(v => v);
+  moveDropdowns.forEach(dropdown => {
+    const currentValue = dropdown.value;
+    dropdown.innerHTML = `<option value="">Selecciona un movimiento</option>`;
+    allMoves.forEach(mov => {
+      if (!selected.includes(mov) || mov === currentValue) {
+        const opt = document.createElement("option");
+        opt.value = mov;
+        opt.textContent = mov;
+        dropdown.appendChild(opt);
+      }
+    });
+    dropdown.value = currentValue;
+  });
+  updateCopyText();
 }
