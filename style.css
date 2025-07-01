@@ -15,3 +15,35 @@ label {
   height: 28px;
   width: 28px;
 }
+
+
+
+/* Estilos para columna EVs/IVs */
+#ev-iv-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ev-container, .iv-container {
+  margin-bottom: 20px;
+}
+
+.ev-container label,
+.iv-container label {
+  display: inline-block;
+  width: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ev-slider {
+  width: 150px;
+  margin: 5px 10px;
+}
+
+.ev-value {
+  display: inline-block;
+  width: 30px;
+  font-weight: bold;
+}

@@ -175,6 +175,11 @@ function updateCopyText() {
       text += `\n- ${formatted}`;
     });
   }
+
+  const evText = getEVs();
+  const ivText = getIVs();
+  if (evText) text += "\n" + evText;
+  if (ivText) text += "\n" + ivText;
 copyText.value = text.trim();
 }
 
@@ -275,3 +280,73 @@ function updateMoveDropdowns() {
   });
   updateCopyText();
 }
+
+
+
+// Captura de valores de EVs e IVs
+function getEVs() {
+  const sliders = document.querySelectorAll(".ev-slider");
+  let evs = [];
+  sliders.forEach(slider => {
+    const value = parseInt(slider.value);
+    if (value > 0) {
+      evs.push(value + " " + slider.dataset.stat);
+    }
+  });
+  return evs.length > 0 ? "EVs: " + evs.join(" / ") : "";
+}
+
+function getIVs() {
+  const inputs = document.querySelectorAll(".iv-input");
+  let ivs = [];
+  inputs.forEach(input => {
+    if (input.dataset.touched === "true" || input.value != "31") {
+      ivs.push(input.value + " " + input.dataset.stat);
+    }
+  });
+  return ivs.length > 0 ? "IVs: " + ivs.join(" / ") : "";
+}
+
+// Escuchar cambios
+document.querySelectorAll(".iv-input").forEach(input => {
+  input.addEventListener("input", () => {
+    input.dataset.touched = "true";
+    updateCopyText();
+  });
+});
+
+
+// Código anterior omitido por brevedad...
+// --- INICIO CAMBIOS ---
+document.querySelectorAll(".ev-slider").forEach(slider => {
+  const output = slider.nextElementSibling;
+  slider.addEventListener("input", () => {
+    const sliders = document.querySelectorAll(".ev-slider");
+    let total = 0;
+    sliders.forEach(s => {
+      total += parseInt(s.value);
+    });
+
+    if (total > 510) {
+      // Si excede, revertimos el valor al anterior
+      slider.value = slider.dataset.lastValid || 0;
+    } else {
+      slider.dataset.lastValid = slider.value;
+    }
+
+    output.textContent = slider.value;
+
+    // Mostrar advertencia si excede
+    const warning = document.getElementById("evWarning");
+    if (total > 510) {
+      warning.style.display = "block";
+    } else {
+      warning.style.display = "none";
+    }
+
+    updateCopyText(); // Refrescar el texto de resumen
+  });
+});
+// --- FIN CAMBIOS ---
+
+

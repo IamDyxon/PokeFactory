@@ -294,18 +294,44 @@
 </div>
 </div>
 </div>
-
-<div id="movesSection" class="input-group" style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-  <label style="font-weight: bold;">Movimientos:</label>
-  <select id="move1"><option value="">Movimiento 1</option></select>
-  <select id="move2"><option value="">Movimiento 2</option></select>
-  <select id="move3"><option value="">Movimiento 3</option></select>
-  <select id="move4"><option value="">Movimiento 4</option></select>
-</div>
 </div><div class="right-column">
+<!-- EVs & IVs Section -->
+<div class="input-group" id="evIvSection" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 2rem;">
+<div style="flex: 1; min-width: 200px;">
+<label style="font-weight: bold;">EVs</label>
+<div id="evSliders">
+<label>HP: <input class="ev-slider" data-stat="hp" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+<label>Atk: <input class="ev-slider" data-stat="atk" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+<label>Def: <input class="ev-slider" data-stat="def" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+<label>SpA: <input class="ev-slider" data-stat="spa" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+<label>SpD: <input class="ev-slider" data-stat="spd" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+<label>Spe: <input class="ev-slider" data-stat="spe" max="252" min="0" type="range" value="0"/><span class="ev-value">0</span></label><br/>
+</div>
+<p id="evWarning" style="color:red; display:none;">Total EVs no puede exceder 510.</p>
+</div>
+<div style="flex: 1; min-width: 200px;">
+<label style="font-weight: bold;">IVs</label>
+<div id="ivInputs">
+<label>HP: <input class="iv-input" data-stat="hp" max="31" min="0" type="number" value="31"/></label><br/>
+<label>Atk: <input class="iv-input" data-stat="atk" max="31" min="0" type="number" value="31"/></label><br/>
+<label>Def: <input class="iv-input" data-stat="def" max="31" min="0" type="number" value="31"/></label><br/>
+<label>SpA: <input class="iv-input" data-stat="spa" max="31" min="0" type="number" value="31"/></label><br/>
+<label>SpD: <input class="iv-input" data-stat="spd" max="31" min="0" type="number" value="31"/></label><br/>
+<label>Spe: <input class="iv-input" data-stat="spe" max="31" min="0" type="number" value="31"/></label><br/>
+</div>
+</div>
+</div>
+<!-- End EVs & IVs Section -->
+<div class="input-group" id="movesSection" style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+<label style="font-weight: bold;">Movimientos:</label>
+<select id="move1"><option value="">Movimiento 1</option></select>
+<select id="move2"><option value="">Movimiento 2</option></select>
+<select id="move3"><option value="">Movimiento 3</option></select>
+<select id="move4"><option value="">Movimiento 4</option></select>
+</div>
 <h3>Pokémon Set</h3>
 <textarea id="copyText" rows="10" style="width: 100%;"></textarea>
-<button id="confirmBtn" style="background:#28a745;border:2px solid #28a745;color:#fff;padding:0.25rem 0.5rem;border-radius:8px;cursor:pointer;margin-top:0.5rem;width:50%;">Confirmar</button><button id="copyBtn" style="background:#ff0000;border:2px solid #ff0000;color:#fff;padding:0.25rem 0.5rem;border-radius:8px;cursor:pointer;margin-top:0.5rem;width:50%;">Copiar Set</button>
+<button id="copyBtn" style="background:#ff0000;border:2px solid #ff0000;color:#fff;padding:0.25rem 0.5rem;border-radius:8px;cursor:pointer;margin-top:0.5rem;width:50%;">Copiar Set</button>
 </div></main>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
