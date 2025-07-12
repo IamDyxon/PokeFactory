@@ -27,47 +27,56 @@ let abilityMap = {}; // español -> inglés
 
 gameSelect.addEventListener('change', function() {
   const game = gameSelect.value;
-  if (game) {
-    const pokemons = [
-      { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
-      { id: 909, name: "Fuecoco", stats: { hp: 67, atk: 45, def: 59, spAtk: 63, spDef: 40, speed: 36 }, types: ["Fire"] },
-      { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
-    ];
 
-    $(pokemonSelect).empty();
-    pokemons.forEach(poke => {
-      const option = new Option(poke.name, poke.name, false, false);
-      $(option).attr('data-id', poke.id);
-      $(option).attr('data-image', `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`);
-      $(pokemonSelect).append(option);
-    });
-    $(pokemonSelect).prop('disabled', false);
-    $(pokemonSelect).select2({
-      templateResult: formatState,
-      templateSelection: formatState
-    });
+  if (game === 'scarlet-violet') {
+    axios.get('/data/scarlet_violet_pokemon.json') // ruta corregida
+      .then(response => {
+        const pokemons = response.data[game];
+        $(pokemonSelect).empty();
+        pokemons.forEach((poke, index) => {
+          const option = new Option(poke.name, poke.name, false, false);
+          $(option).attr('data-id', poke.name.toLowerCase()); // temporalmente asigna un id falso
+          $(pokemonSelect).append(option);
+        });
+        $(pokemonSelect).prop('disabled', false);
+        $(pokemonSelect).select2({
+          templateResult: formatState,
+          templateSelection: formatState
+        });
+      });
   } else {
     $(pokemonSelect).empty().prop('disabled', true);
   }
+
   updateCopyText();
 });
 
 $(pokemonSelect).on('select2:select', function (e) {
   const selectedName = e.params.data.id;
-  const pokemons = [
-    { id: 906, name: "Sprigatito", stats: { hp: 40, atk: 61, def: 54, spAtk: 45, spDef: 45, speed: 65 }, types: ["Grass"] },
-    { id: 909, name: "Fuecoco", stats: { hp: 67, atk: 45, def: 59, spAtk: 63, spDef: 40, speed: 36 }, types: ["Fire"] },
-    { id: 912, name: "Quaxly", stats: { hp: 55, atk: 65, def: 45, spAtk: 50, spDef: 45, speed: 50 }, types: ["Water"] }
-  ];
-  currentPokemon = pokemons.find(p => p.name === selectedName);
-  renderPokemonInfo();
 
-  if (currentPokemon) {
-    loadAbilities(currentPokemon.id);
-  loadMoves(currentPokemon.id);
-  }
+  // Obtener sprite y tipos desde PokéAPI
+  axios.get(`https://pokeapi.co/api/v2/pokemon/${selectedName.toLowerCase()}`)
+    .then(response => {
+      const data = response.data;
+      currentPokemon = {
+        id: data.id,
+        name: data.name.charAt(0).toUpperCase() + data.name.slice(1),
+        stats: {
+          hp: data.stats[0].base_stat,
+          atk: data.stats[1].base_stat,
+          def: data.stats[2].base_stat,
+          spAtk: data.stats[3].base_stat,
+          spDef: data.stats[4].base_stat,
+          speed: data.stats[5].base_stat
+        },
+        types: data.types.map(t => t.type.name.charAt(0).toUpperCase() + t.type.name.slice(1))
+      };
 
-  updateCopyText();
+      renderPokemonInfo();
+      loadAbilities(currentPokemon.id);
+      loadMoves(currentPokemon.id);
+      updateCopyText();
+    });
 });
 
 shinyCheckbox.addEventListener('change', () => {
@@ -133,6 +142,7 @@ function updateCopyText() {
   let text = "";
 
   if (game && pokemonName) {
+    
     text += `%trade`;
     let line = "";
     if (tradeCode) line += tradeCode + " ";
@@ -141,19 +151,28 @@ function updateCopyText() {
     } else {
       line += pokemonName;
     }
+
+    if (gender && gender !== "Aleatorio") {
+      const initial = gender === "Male" ? "M" : gender === "Female" ? "F" : "";
+      if (initial) line += " (" + initial + ")";
+    }
+
+    if (item) {
+      line += " @ " + item;
+    }
+
     text += ` ${line}`;
+    
 
     if (isShiny) text += `\nShiny: Yes`;
     if (language) text += `\nLanguage: ${language}`;
     if (level) text += `\nLevel: ${level}`;
-    if (gender) text += `\nGender: ${gender}`;
     if (abilityEs) text += `\nAbility: ${abilityEn.split(" ")[0]}`;
     if (nature) {
       const match = nature.match(/^(\w+)/);
       const natureName = match ? match[1] : nature;
       text += `\nNature: ${natureName}`;
     }
-    if (item) text += `\nItem: ${item}`;
   }
 
   if (scaleTouched && currentPokemon) {
@@ -311,8 +330,9 @@ function getIVs() {
 document.querySelectorAll(".iv-input").forEach(input => {
   input.addEventListener("input", () => {
     input.dataset.touched = "true";
-    updateCopyText();
   });
+  updateCopyText();
+  updateCopyText();
 });
 
 
@@ -350,3 +370,89 @@ document.querySelectorAll(".ev-slider").forEach(slider => {
 // --- FIN CAMBIOS ---
 
 
+
+
+// Cargar objetos desde JSON
+function cargarItemsDesdeJson() {
+  if (!itemSelect) return;
+  fetch("data/all_items_sv.json")
+    .then(response => response.json())
+    .then(data => {
+      itemSelect.innerHTML = '<option value="">(ninguno)</option>';
+      data.forEach(item => {
+        const option = document.createElement("option");
+        option.value = item.value;
+        option.textContent = item.label;
+        itemSelect.appendChild(option);
+      });
+    })
+    .catch(err => console.error("Error cargando items:", err));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  cargarItemsDesdeJson();
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  /* 1. Código Intercambio: solo números y máx 8 dígitos */
+  const tradeCode = document.getElementById("tradeCode");
+  if (tradeCode) {
+    tradeCode.addEventListener("input", () => {
+      tradeCode.value = tradeCode.value.replace(/\D/g, "").slice(0, 8);
+    });
+  }
+
+  /* 2. Idiomas disponibles */
+  const languageSelect = document.getElementById("languageSelect");
+  if (languageSelect) {
+    const idiomas = ["English", "French", "Spanish", "Italian", "Japanese", "German", "Korean", "ChineseS", "ChineseT"];
+    languageSelect.innerHTML = '<option value="">Selecciona un idioma</option>';
+    idiomas.forEach(lang => {
+      const opt = document.createElement("option");
+      opt.value = lang;
+      opt.textContent = lang;
+      languageSelect.appendChild(opt);
+    });
+  }
+
+  /* 3. Niveles 1 al 100 */
+  const levelSelect = document.getElementById("levelSelect");
+  if (levelSelect) {
+    levelSelect.innerHTML = '<option value="">Selecciona un nivel</option>';
+    for (let i = 1; i <= 100; i++) {
+      const opt = document.createElement("option");
+      opt.value = i;
+      opt.textContent = i;
+      levelSelect.appendChild(opt);
+    }
+  }
+
+  /* 4. Fecha mínima/máxima desde 2016 a hoy */
+  const metDate = document.getElementById("metDate");
+  if (metDate) {
+    metDate.min = "2016-01-01";
+    metDate.max = "2025-12-31";
+  }
+});
+
+/* 5. Ajustar formato del texto final para objeto */
+function buildShowdownText(data) {
+  const lines = [];
+
+  let encabezado = `%trade ${data.tradeCode} ${data.nickname} (${data.pokemon})`;
+  if (data.item) {
+    encabezado += ` @ ${data.item}`;
+  }
+  lines.push(encabezado);
+
+  if (data.shiny) lines.push("Shiny: Yes");
+  if (data.language) lines.push(`Language: ${data.language}`);
+  if (data.level) lines.push(`Level: ${data.level}`);
+  if (data.gender) lines.push(`Gender: ${data.gender}`);
+  if (data.ability) lines.push(`Ability: ${data.ability}`);
+  if (data.nature) lines.push(`Nature: ${data.nature}`);
+
+  return lines.join("\n");
+}

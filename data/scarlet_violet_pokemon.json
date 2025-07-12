@@ -1,0 +1,2776 @@
+{
+  "scarlet-violet": [
+    {
+      "name": "Abomasnow"
+    },
+    {
+      "name": "Aipom"
+    },
+    {
+      "name": "Alcremie"
+    },
+    {
+      "name": "Alomomola"
+    },
+    {
+      "name": "Altaria"
+    },
+    {
+      "name": "Ambipom"
+    },
+    {
+      "name": "Amoonguss"
+    },
+    {
+      "name": "Ampharos"
+    },
+    {
+      "name": "Annihilape"
+    },
+    {
+      "name": "Appletun"
+    },
+    {
+      "name": "Applin"
+    },
+    {
+      "name": "Araquanid"
+    },
+    {
+      "name": "Arbok"
+    },
+    {
+      "name": "Arboliva"
+    },
+    {
+      "name": "Arcanine"
+    },
+    {
+      "name": "Arcanine-Hisui"
+    },
+    {
+      "name": "Arceus"
+    },
+    {
+      "name": "Arceus-Bug"
+    },
+    {
+      "name": "Arceus-Dark"
+    },
+    {
+      "name": "Arceus-Dragon"
+    },
+    {
+      "name": "Arceus-Electric"
+    },
+    {
+      "name": "Arceus-Fairy"
+    },
+    {
+      "name": "Arceus-Fighting"
+    },
+    {
+      "name": "Arceus-Fire"
+    },
+    {
+      "name": "Arceus-Flying"
+    },
+    {
+      "name": "Arceus-Ghost"
+    },
+    {
+      "name": "Arceus-Grass"
+    },
+    {
+      "name": "Arceus-Ground"
+    },
+    {
+      "name": "Arceus-Ice"
+    },
+    {
+      "name": "Arceus-Poison"
+    },
+    {
+      "name": "Arceus-Psychic"
+    },
+    {
+      "name": "Arceus-Rock"
+    },
+    {
+      "name": "Arceus-Steel"
+    },
+    {
+      "name": "Arceus-Water"
+    },
+    {
+      "name": "Archaludon"
+    },
+    {
+      "name": "Arctibax"
+    },
+    {
+      "name": "Ariados"
+    },
+    {
+      "name": "Armarouge"
+    },
+    {
+      "name": "Arrokuda"
+    },
+    {
+      "name": "Articuno"
+    },
+    {
+      "name": "Articuno-Galar"
+    },
+    {
+      "name": "Avalugg"
+    },
+    {
+      "name": "Avalugg-Hisui"
+    },
+    {
+      "name": "Axew"
+    },
+    {
+      "name": "Azelf"
+    },
+    {
+      "name": "Azumarill"
+    },
+    {
+      "name": "Azurill"
+    },
+    {
+      "name": "Bagon"
+    },
+    {
+      "name": "Banette"
+    },
+    {
+      "name": "Barboach"
+    },
+    {
+      "name": "Barraskewda"
+    },
+    {
+      "name": "Basculegion"
+    },
+    {
+      "name": "Basculegion-F"
+    },
+    {
+      "name": "Basculin"
+    },
+    {
+      "name": "Basculin-Blue"
+    },
+    {
+      "name": "Basculin-White"
+    },
+    {
+      "name": "Bastiodon"
+    },
+    {
+      "name": "Baxcalibur"
+    },
+    {
+      "name": "Bayleef"
+    },
+    {
+      "name": "Beartic"
+    },
+    {
+      "name": "Beldum"
+    },
+    {
+      "name": "Bellibolt"
+    },
+    {
+      "name": "Bellossom"
+    },
+    {
+      "name": "Bellsprout"
+    },
+    {
+      "name": "Bergmite"
+    },
+    {
+      "name": "Bisharp"
+    },
+    {
+      "name": "Blastoise"
+    },
+    {
+      "name": "Blaziken"
+    },
+    {
+      "name": "Blissey"
+    },
+    {
+      "name": "Blitzle"
+    },
+    {
+      "name": "Bombirdier"
+    },
+    {
+      "name": "Bonsly"
+    },
+    {
+      "name": "Bounsweet"
+    },
+    {
+      "name": "Braixen"
+    },
+    {
+      "name": "Brambleghast"
+    },
+    {
+      "name": "Bramblin"
+    },
+    {
+      "name": "Braviary"
+    },
+    {
+      "name": "Braviary-Hisui"
+    },
+    {
+      "name": "Breloom"
+    },
+    {
+      "name": "Brionne"
+    },
+    {
+      "name": "Bronzong"
+    },
+    {
+      "name": "Bronzor"
+    },
+    {
+      "name": "Brute Bonnet"
+    },
+    {
+      "name": "Bruxish"
+    },
+    {
+      "name": "Buizel"
+    },
+    {
+      "name": "Bulbasaur"
+    },
+    {
+      "name": "Cacnea"
+    },
+    {
+      "name": "Cacturne"
+    },
+    {
+      "name": "Calyrex"
+    },
+    {
+      "name": "Camerupt"
+    },
+    {
+      "name": "Capsakid"
+    },
+    {
+      "name": "Carbink"
+    },
+    {
+      "name": "Carkol"
+    },
+    {
+      "name": "Ceruledge"
+    },
+    {
+      "name": "Cetitan"
+    },
+    {
+      "name": "Cetoddle"
+    },
+    {
+      "name": "Chandelure"
+    },
+    {
+      "name": "Chansey"
+    },
+    {
+      "name": "Charcadet"
+    },
+    {
+      "name": "Charizard"
+    },
+    {
+      "name": "Charjabug"
+    },
+    {
+      "name": "Charmander"
+    },
+    {
+      "name": "Charmeleon"
+    },
+    {
+      "name": "Chesnaught"
+    },
+    {
+      "name": "Chespin"
+    },
+    {
+      "name": "Chewtle"
+    },
+    {
+      "name": "Chi-Yu"
+    },
+    {
+      "name": "Chien-Pao"
+    },
+    {
+      "name": "Chikorita"
+    },
+    {
+      "name": "Chimchar"
+    },
+    {
+      "name": "Chimecho"
+    },
+    {
+      "name": "Chinchou"
+    },
+    {
+      "name": "Chingling"
+    },
+    {
+      "name": "Cinccino"
+    },
+    {
+      "name": "Cinderace"
+    },
+    {
+      "name": "Clauncher"
+    },
+    {
+      "name": "Clawitzer"
+    },
+    {
+      "name": "Clefable"
+    },
+    {
+      "name": "Clefairy"
+    },
+    {
+      "name": "Cleffa"
+    },
+    {
+      "name": "Clodsire"
+    },
+    {
+      "name": "Cloyster"
+    },
+    {
+      "name": "Coalossal"
+    },
+    {
+      "name": "Cobalion"
+    },
+    {
+      "name": "Combee"
+    },
+    {
+      "name": "Combusken"
+    },
+    {
+      "name": "Comfey"
+    },
+    {
+      "name": "Conkeldurr"
+    },
+    {
+      "name": "Copperajah"
+    },
+    {
+      "name": "Corphish"
+    },
+    {
+      "name": "Corviknight"
+    },
+    {
+      "name": "Corvisquire"
+    },
+    {
+      "name": "Cosmoem"
+    },
+    {
+      "name": "Cosmog"
+    },
+    {
+      "name": "Cottonee"
+    },
+    {
+      "name": "Crabominable"
+    },
+    {
+      "name": "Crabrawler"
+    },
+    {
+      "name": "Cramorant"
+    },
+    {
+      "name": "Cranidos"
+    },
+    {
+      "name": "Crawdaunt"
+    },
+    {
+      "name": "Cresselia"
+    },
+    {
+      "name": "Croagunk"
+    },
+    {
+      "name": "Crocalor"
+    },
+    {
+      "name": "Croconaw"
+    },
+    {
+      "name": "Cryogonal"
+    },
+    {
+      "name": "Cubchoo"
+    },
+    {
+      "name": "Cufant"
+    },
+    {
+      "name": "Cutiefly"
+    },
+    {
+      "name": "Cyclizar"
+    },
+    {
+      "name": "Cyndaquil"
+    },
+    {
+      "name": "Dachsbun"
+    },
+    {
+      "name": "Darkrai"
+    },
+    {
+      "name": "Dartrix"
+    },
+    {
+      "name": "Decidueye"
+    },
+    {
+      "name": "Decidueye-Hisui"
+    },
+    {
+      "name": "Dedenne"
+    },
+    {
+      "name": "Deerling"
+    },
+    {
+      "name": "Deerling-Autumn"
+    },
+    {
+      "name": "Deerling-Summer"
+    },
+    {
+      "name": "Deerling-Winter"
+    },
+    {
+      "name": "Deino"
+    },
+    {
+      "name": "Delibird"
+    },
+    {
+      "name": "Delphox"
+    },
+    {
+      "name": "Deoxys"
+    },
+    {
+      "name": "Deoxys-Attack"
+    },
+    {
+      "name": "Deoxys-Defense"
+    },
+    {
+      "name": "Deoxys-Speed"
+    },
+    {
+      "name": "Dewgong"
+    },
+    {
+      "name": "Dewott"
+    },
+    {
+      "name": "Dewpider"
+    },
+    {
+      "name": "Dialga"
+    },
+    {
+      "name": "Dialga-Origin"
+    },
+    {
+      "name": "Diancie"
+    },
+    {
+      "name": "Diglett"
+    },
+    {
+      "name": "Diglett-Alola"
+    },
+    {
+      "name": "Dipplin"
+    },
+    {
+      "name": "Ditto"
+    },
+    {
+      "name": "Dodrio"
+    },
+    {
+      "name": "Doduo"
+    },
+    {
+      "name": "Dolliv"
+    },
+    {
+      "name": "Dondozo"
+    },
+    {
+      "name": "Donphan"
+    },
+    {
+      "name": "Dragalge"
+    },
+    {
+      "name": "Dragapult"
+    },
+    {
+      "name": "Dragonair"
+    },
+    {
+      "name": "Dragonite"
+    },
+    {
+      "name": "Drakloak"
+    },
+    {
+      "name": "Dratini"
+    },
+    {
+      "name": "Drednaw"
+    },
+    {
+      "name": "Dreepy"
+    },
+    {
+      "name": "Drifblim"
+    },
+    {
+      "name": "Drifloon"
+    },
+    {
+      "name": "Drilbur"
+    },
+    {
+      "name": "Drizzile"
+    },
+    {
+      "name": "Drowzee"
+    },
+    {
+      "name": "Ducklett"
+    },
+    {
+      "name": "Dudunsparce"
+    },
+    {
+      "name": "Dudunsparce-Three-Segment"
+    },
+    {
+      "name": "Dugtrio"
+    },
+    {
+      "name": "Dugtrio-Alola"
+    },
+    {
+      "name": "Dunsparce"
+    },
+    {
+      "name": "Duosion"
+    },
+    {
+      "name": "Duraludon"
+    },
+    {
+      "name": "Dusclops"
+    },
+    {
+      "name": "Dusknoir"
+    },
+    {
+      "name": "Duskull"
+    },
+    {
+      "name": "Eelektrik"
+    },
+    {
+      "name": "Eelektross"
+    },
+    {
+      "name": "Eevee"
+    },
+    {
+      "name": "Eiscue"
+    },
+    {
+      "name": "Ekans"
+    },
+    {
+      "name": "Electabuzz"
+    },
+    {
+      "name": "Electivire"
+    },
+    {
+      "name": "Electrode"
+    },
+    {
+      "name": "Electrode-Hisui"
+    },
+    {
+      "name": "Elekid"
+    },
+    {
+      "name": "Emboar"
+    },
+    {
+      "name": "Empoleon"
+    },
+    {
+      "name": "Enamorus"
+    },
+    {
+      "name": "Enamorus-Therian"
+    },
+    {
+      "name": "Entei"
+    },
+    {
+      "name": "Espathra"
+    },
+    {
+      "name": "Espeon"
+    },
+    {
+      "name": "Espurr"
+    },
+    {
+      "name": "Eternatus"
+    },
+    {
+      "name": "Excadrill"
+    },
+    {
+      "name": "Exeggcute"
+    },
+    {
+      "name": "Exeggutor"
+    },
+    {
+      "name": "Exeggutor-Alola"
+    },
+    {
+      "name": "Falinks"
+    },
+    {
+      "name": "Farigiraf"
+    },
+    {
+      "name": "Feebas"
+    },
+    {
+      "name": "Fennekin"
+    },
+    {
+      "name": "Feraligatr"
+    },
+    {
+      "name": "Fezandipiti"
+    },
+    {
+      "name": "Fidough"
+    },
+    {
+      "name": "Finizen"
+    },
+    {
+      "name": "Finneon"
+    },
+    {
+      "name": "Flaaffy"
+    },
+    {
+      "name": "Flabébé"
+    },
+    {
+      "name": "Flabébé-Blue"
+    },
+    {
+      "name": "Flabébé-Orange"
+    },
+    {
+      "name": "Flabébé-White"
+    },
+    {
+      "name": "Flabébé-Yellow"
+    },
+    {
+      "name": "Flamigo"
+    },
+    {
+      "name": "Flapple"
+    },
+    {
+      "name": "Flareon"
+    },
+    {
+      "name": "Fletchinder"
+    },
+    {
+      "name": "Fletchling"
+    },
+    {
+      "name": "Flittle"
+    },
+    {
+      "name": "Floatzel"
+    },
+    {
+      "name": "Floette"
+    },
+    {
+      "name": "Floette-Blue"
+    },
+    {
+      "name": "Floette-Orange"
+    },
+    {
+      "name": "Floette-White"
+    },
+    {
+      "name": "Floette-Yellow"
+    },
+    {
+      "name": "Floragato"
+    },
+    {
+      "name": "Florges"
+    },
+    {
+      "name": "Florges-Blue"
+    },
+    {
+      "name": "Florges-Orange"
+    },
+    {
+      "name": "Florges-White"
+    },
+    {
+      "name": "Florges-Yellow"
+    },
+    {
+      "name": "Flutter Mane"
+    },
+    {
+      "name": "Flygon"
+    },
+    {
+      "name": "Fomantis"
+    },
+    {
+      "name": "Foongus"
+    },
+    {
+      "name": "Forretress"
+    },
+    {
+      "name": "Fraxure"
+    },
+    {
+      "name": "Frigibax"
+    },
+    {
+      "name": "Froakie"
+    },
+    {
+      "name": "Frogadier"
+    },
+    {
+      "name": "Froslass"
+    },
+    {
+      "name": "Frosmoth"
+    },
+    {
+      "name": "Fuecoco"
+    },
+    {
+      "name": "Furret"
+    },
+    {
+      "name": "Gabite"
+    },
+    {
+      "name": "Gallade"
+    },
+    {
+      "name": "Galvantula"
+    },
+    {
+      "name": "Garchomp"
+    },
+    {
+      "name": "Gardevoir"
+    },
+    {
+      "name": "Garganacl"
+    },
+    {
+      "name": "Gastly"
+    },
+    {
+      "name": "Gastrodon"
+    },
+    {
+      "name": "Gastrodon-East"
+    },
+    {
+      "name": "Gengar"
+    },
+    {
+      "name": "Geodude"
+    },
+    {
+      "name": "Geodude-Alola"
+    },
+    {
+      "name": "Gholdengo"
+    },
+    {
+      "name": "Gible"
+    },
+    {
+      "name": "Gimmighoul"
+    },
+    {
+      "name": "Gimmighoul-Roaming"
+    },
+    {
+      "name": "Girafarig"
+    },
+    {
+      "name": "Giratina"
+    },
+    {
+      "name": "Giratina-Origin"
+    },
+    {
+      "name": "Glaceon"
+    },
+    {
+      "name": "Glalie"
+    },
+    {
+      "name": "Glastrier"
+    },
+    {
+      "name": "Gligar"
+    },
+    {
+      "name": "Glimmet"
+    },
+    {
+      "name": "Glimmora"
+    },
+    {
+      "name": "Gliscor"
+    },
+    {
+      "name": "Gloom"
+    },
+    {
+      "name": "Gogoat"
+    },
+    {
+      "name": "Golduck"
+    },
+    {
+      "name": "Golem"
+    },
+    {
+      "name": "Golem-Alola"
+    },
+    {
+      "name": "Golett"
+    },
+    {
+      "name": "Golurk"
+    },
+    {
+      "name": "Goodra"
+    },
+    {
+      "name": "Goodra-Hisui"
+    },
+    {
+      "name": "Goomy"
+    },
+    {
+      "name": "Gothita"
+    },
+    {
+      "name": "Gothitelle"
+    },
+    {
+      "name": "Gothorita"
+    },
+    {
+      "name": "Gouging Fire"
+    },
+    {
+      "name": "Grafaiai"
+    },
+    {
+      "name": "Granbull"
+    },
+    {
+      "name": "Graveler"
+    },
+    {
+      "name": "Graveler-Alola"
+    },
+    {
+      "name": "Great Tusk"
+    },
+    {
+      "name": "Greavard"
+    },
+    {
+      "name": "Greedent"
+    },
+    {
+      "name": "Greninja"
+    },
+    {
+      "name": "Greninja-Ash"
+    },
+    {
+      "name": "Grimer"
+    },
+    {
+      "name": "Grimer-Alola"
+    },
+    {
+      "name": "Grimmsnarl"
+    },
+    {
+      "name": "Grookey"
+    },
+    {
+      "name": "Grotle"
+    },
+    {
+      "name": "Groudon"
+    },
+    {
+      "name": "Grovyle"
+    },
+    {
+      "name": "Growlithe"
+    },
+    {
+      "name": "Growlithe-Hisui"
+    },
+    {
+      "name": "Grubbin"
+    },
+    {
+      "name": "Grumpig"
+    },
+    {
+      "name": "Gulpin"
+    },
+    {
+      "name": "Gumshoos"
+    },
+    {
+      "name": "Gurdurr"
+    },
+    {
+      "name": "Gyarados"
+    },
+    {
+      "name": "Hakamo-o"
+    },
+    {
+      "name": "Happiny"
+    },
+    {
+      "name": "Hariyama"
+    },
+    {
+      "name": "Hatenna"
+    },
+    {
+      "name": "Hatterene"
+    },
+    {
+      "name": "Hattrem"
+    },
+    {
+      "name": "Haunter"
+    },
+    {
+      "name": "Hawlucha"
+    },
+    {
+      "name": "Haxorus"
+    },
+    {
+      "name": "Heatran"
+    },
+    {
+      "name": "Heracross"
+    },
+    {
+      "name": "Hippopotas"
+    },
+    {
+      "name": "Hippowdon"
+    },
+    {
+      "name": "Hitmonchan"
+    },
+    {
+      "name": "Hitmonlee"
+    },
+    {
+      "name": "Hitmontop"
+    },
+    {
+      "name": "Ho-Oh"
+    },
+    {
+      "name": "Honchkrow"
+    },
+    {
+      "name": "Hoopa"
+    },
+    {
+      "name": "Hoopa-Unbound"
+    },
+    {
+      "name": "Hoothoot"
+    },
+    {
+      "name": "Hoppip"
+    },
+    {
+      "name": "Horsea"
+    },
+    {
+      "name": "Houndoom"
+    },
+    {
+      "name": "Houndour"
+    },
+    {
+      "name": "Houndstone"
+    },
+    {
+      "name": "Hydrapple"
+    },
+    {
+      "name": "Hydreigon"
+    },
+    {
+      "name": "Hypno"
+    },
+    {
+      "name": "Igglybuff"
+    },
+    {
+      "name": "Illumise"
+    },
+    {
+      "name": "Impidimp"
+    },
+    {
+      "name": "Incineroar"
+    },
+    {
+      "name": "Indeedee"
+    },
+    {
+      "name": "Indeedee-F"
+    },
+    {
+      "name": "Infernape"
+    },
+    {
+      "name": "Inkay"
+    },
+    {
+      "name": "Inteleon"
+    },
+    {
+      "name": "Iron Boulder"
+    },
+    {
+      "name": "Iron Bundle"
+    },
+    {
+      "name": "Iron Crown"
+    },
+    {
+      "name": "Iron Hands"
+    },
+    {
+      "name": "Iron Jugulis"
+    },
+    {
+      "name": "Iron Leaves"
+    },
+    {
+      "name": "Iron Moth"
+    },
+    {
+      "name": "Iron Thorns"
+    },
+    {
+      "name": "Iron Treads"
+    },
+    {
+      "name": "Iron Valiant"
+    },
+    {
+      "name": "Ivysaur"
+    },
+    {
+      "name": "Jangmo-o"
+    },
+    {
+      "name": "Jigglypuff"
+    },
+    {
+      "name": "Jirachi"
+    },
+    {
+      "name": "Jolteon"
+    },
+    {
+      "name": "Joltik"
+    },
+    {
+      "name": "Jumpluff"
+    },
+    {
+      "name": "Keldeo"
+    },
+    {
+      "name": "Kilowattrel"
+    },
+    {
+      "name": "Kingambit"
+    },
+    {
+      "name": "Kingdra"
+    },
+    {
+      "name": "Kirlia"
+    },
+    {
+      "name": "Klawf"
+    },
+    {
+      "name": "Kleavor"
+    },
+    {
+      "name": "Klefki"
+    },
+    {
+      "name": "Koffing"
+    },
+    {
+      "name": "Komala"
+    },
+    {
+      "name": "Kommo-o"
+    },
+    {
+      "name": "Koraidon"
+    },
+    {
+      "name": "Kricketot"
+    },
+    {
+      "name": "Kricketune"
+    },
+    {
+      "name": "Krokorok"
+    },
+    {
+      "name": "Krookodile"
+    },
+    {
+      "name": "Kubfu"
+    },
+    {
+      "name": "Kyogre"
+    },
+    {
+      "name": "Kyurem"
+    },
+    {
+      "name": "Lampent"
+    },
+    {
+      "name": "Landorus"
+    },
+    {
+      "name": "Landorus-Therian"
+    },
+    {
+      "name": "Lanturn"
+    },
+    {
+      "name": "Lapras"
+    },
+    {
+      "name": "Larvesta"
+    },
+    {
+      "name": "Larvitar"
+    },
+    {
+      "name": "Latias"
+    },
+    {
+      "name": "Latios"
+    },
+    {
+      "name": "Leafeon"
+    },
+    {
+      "name": "Leavanny"
+    },
+    {
+      "name": "Lechonk"
+    },
+    {
+      "name": "Lilligant"
+    },
+    {
+      "name": "Lilligant-Hisui"
+    },
+    {
+      "name": "Litleo"
+    },
+    {
+      "name": "Litten"
+    },
+    {
+      "name": "Litwick"
+    },
+    {
+      "name": "Lokix"
+    },
+    {
+      "name": "Lombre"
+    },
+    {
+      "name": "Lotad"
+    },
+    {
+      "name": "Lucario"
+    },
+    {
+      "name": "Ludicolo"
+    },
+    {
+      "name": "Lugia"
+    },
+    {
+      "name": "Lumineon"
+    },
+    {
+      "name": "Lunala"
+    },
+    {
+      "name": "Lurantis"
+    },
+    {
+      "name": "Luvdisc"
+    },
+    {
+      "name": "Luxio"
+    },
+    {
+      "name": "Luxray"
+    },
+    {
+      "name": "Lycanroc"
+    },
+    {
+      "name": "Lycanroc-Dusk"
+    },
+    {
+      "name": "Lycanroc-Midnight"
+    },
+    {
+      "name": "Mabosstiff"
+    },
+    {
+      "name": "Magby"
+    },
+    {
+      "name": "Magcargo"
+    },
+    {
+      "name": "Magearna"
+    },
+    {
+      "name": "Magearna-Original"
+    },
+    {
+      "name": "Magikarp"
+    },
+    {
+      "name": "Magmar"
+    },
+    {
+      "name": "Magmortar"
+    },
+    {
+      "name": "Magnemite"
+    },
+    {
+      "name": "Magneton"
+    },
+    {
+      "name": "Magnezone"
+    },
+    {
+      "name": "Makuhita"
+    },
+    {
+      "name": "Malamar"
+    },
+    {
+      "name": "Mamoswine"
+    },
+    {
+      "name": "Manaphy"
+    },
+    {
+      "name": "Mandibuzz"
+    },
+    {
+      "name": "Mankey"
+    },
+    {
+      "name": "Mareanie"
+    },
+    {
+      "name": "Mareep"
+    },
+    {
+      "name": "Marill"
+    },
+    {
+      "name": "Marshtomp"
+    },
+    {
+      "name": "Maschiff"
+    },
+    {
+      "name": "Masquerain"
+    },
+    {
+      "name": "Maushold"
+    },
+    {
+      "name": "Maushold-Family of Four"
+    },
+    {
+      "name": "Medicham"
+    },
+    {
+      "name": "Meditite"
+    },
+    {
+      "name": "Meganium"
+    },
+    {
+      "name": "Meloetta"
+    },
+    {
+      "name": "Meowscarada"
+    },
+    {
+      "name": "Meowstic"
+    },
+    {
+      "name": "Meowstic-F"
+    },
+    {
+      "name": "Meowth"
+    },
+    {
+      "name": "Meowth-Alola"
+    },
+    {
+      "name": "Meowth-Galar"
+    },
+    {
+      "name": "Mesprit"
+    },
+    {
+      "name": "Metagross"
+    },
+    {
+      "name": "Metang"
+    },
+    {
+      "name": "Mew"
+    },
+    {
+      "name": "Mewtwo"
+    },
+    {
+      "name": "Mienfoo"
+    },
+    {
+      "name": "Mienshao"
+    },
+    {
+      "name": "Mightyena"
+    },
+    {
+      "name": "Milcery"
+    },
+    {
+      "name": "Milotic"
+    },
+    {
+      "name": "Mimikyu"
+    },
+    {
+      "name": "Minccino"
+    },
+    {
+      "name": "Minior-Blue"
+    },
+    {
+      "name": "Minior-Green"
+    },
+    {
+      "name": "Minior-Indigo"
+    },
+    {
+      "name": "Minior-Orange"
+    },
+    {
+      "name": "Minior-Red"
+    },
+    {
+      "name": "Minior-Violet"
+    },
+    {
+      "name": "Minior-Yellow"
+    },
+    {
+      "name": "Minun"
+    },
+    {
+      "name": "Miraidon"
+    },
+    {
+      "name": "Misdreavus"
+    },
+    {
+      "name": "Mismagius"
+    },
+    {
+      "name": "Moltres"
+    },
+    {
+      "name": "Moltres-Galar"
+    },
+    {
+      "name": "Monferno"
+    },
+    {
+      "name": "Morgrem"
+    },
+    {
+      "name": "Morpeko"
+    },
+    {
+      "name": "Mudbray"
+    },
+    {
+      "name": "Mudkip"
+    },
+    {
+      "name": "Mudsdale"
+    },
+    {
+      "name": "Muk"
+    },
+    {
+      "name": "Muk-Alola"
+    },
+    {
+      "name": "Munchlax"
+    },
+    {
+      "name": "Munkidori"
+    },
+    {
+      "name": "Murkrow"
+    },
+    {
+      "name": "Nacli"
+    },
+    {
+      "name": "Naclstack"
+    },
+    {
+      "name": "Necrozma"
+    },
+    {
+      "name": "Ninetales"
+    },
+    {
+      "name": "Ninetales-Alola"
+    },
+    {
+      "name": "Noctowl"
+    },
+    {
+      "name": "Noibat"
+    },
+    {
+      "name": "Noivern"
+    },
+    {
+      "name": "Nosepass"
+    },
+    {
+      "name": "Numel"
+    },
+    {
+      "name": "Nuzleaf"
+    },
+    {
+      "name": "Nymble"
+    },
+    {
+      "name": "Oddish"
+    },
+    {
+      "name": "Ogerpon"
+    },
+    {
+      "name": "Ogerpon-Cornerstone @ Cornerstone Mask"
+    },
+    {
+      "name": "Ogerpon-Hearthflame @ Hearthflame Mask"
+    },
+    {
+      "name": "Ogerpon-Wellspring @ Wellspring Mask"
+    },
+    {
+      "name": "Oinkologne"
+    },
+    {
+      "name": "Oinkologne-F"
+    },
+    {
+      "name": "Okidogi"
+    },
+    {
+      "name": "Oranguru"
+    },
+    {
+      "name": "Oricorio"
+    },
+    {
+      "name": "Oricorio-Pa’u"
+    },
+    {
+      "name": "Oricorio-Pom-Pom"
+    },
+    {
+      "name": "Oricorio-Sensu"
+    },
+    {
+      "name": "Orthworm"
+    },
+    {
+      "name": "Oshawott"
+    },
+    {
+      "name": "Overqwil"
+    },
+    {
+      "name": "Pachirisu"
+    },
+    {
+      "name": "Palafin"
+    },
+    {
+      "name": "Palkia"
+    },
+    {
+      "name": "Palkia-Origin"
+    },
+    {
+      "name": "Palossand"
+    },
+    {
+      "name": "Passimian"
+    },
+    {
+      "name": "Pawmi"
+    },
+    {
+      "name": "Pawmo"
+    },
+    {
+      "name": "Pawmot"
+    },
+    {
+      "name": "Pawniard"
+    },
+    {
+      "name": "Pecharunt"
+    },
+    {
+      "name": "Pelipper"
+    },
+    {
+      "name": "Perrserker"
+    },
+    {
+      "name": "Persian"
+    },
+    {
+      "name": "Persian-Alola"
+    },
+    {
+      "name": "Petilil"
+    },
+    {
+      "name": "Phanpy"
+    },
+    {
+      "name": "Phantump"
+    },
+    {
+      "name": "Phione"
+    },
+    {
+      "name": "Pichu"
+    },
+    {
+      "name": "Pignite"
+    },
+    {
+      "name": "Pikachu"
+    },
+    {
+      "name": "Pikachu-Alola"
+    },
+    {
+      "name": "Pikachu-Hoenn"
+    },
+    {
+      "name": "Pikachu-Kalos"
+    },
+    {
+      "name": "Pikachu-Original"
+    },
+    {
+      "name": "Pikachu-Partner"
+    },
+    {
+      "name": "Pikachu-Sinnoh"
+    },
+    {
+      "name": "Pikachu-Unova"
+    },
+    {
+      "name": "Pikachu-World"
+    },
+    {
+      "name": "Pikipek"
+    },
+    {
+      "name": "Piloswine"
+    },
+    {
+      "name": "Pincurchin"
+    },
+    {
+      "name": "Pineco"
+    },
+    {
+      "name": "Piplup"
+    },
+    {
+      "name": "Plusle"
+    },
+    {
+      "name": "Politoed"
+    },
+    {
+      "name": "Poliwag"
+    },
+    {
+      "name": "Poliwhirl"
+    },
+    {
+      "name": "Poliwrath"
+    },
+    {
+      "name": "Poltchageist"
+    },
+    {
+      "name": "Poltchageist-Artisan"
+    },
+    {
+      "name": "Polteageist"
+    },
+    {
+      "name": "Polteageist-Antique"
+    },
+    {
+      "name": "Poochyena"
+    },
+    {
+      "name": "Popplio"
+    },
+    {
+      "name": "Porygon"
+    },
+    {
+      "name": "Porygon-Z"
+    },
+    {
+      "name": "Porygon2"
+    },
+    {
+      "name": "Primarina"
+    },
+    {
+      "name": "Primeape"
+    },
+    {
+      "name": "Prinplup"
+    },
+    {
+      "name": "Probopass"
+    },
+    {
+      "name": "Psyduck"
+    },
+    {
+      "name": "Pupitar"
+    },
+    {
+      "name": "Pyroar"
+    },
+    {
+      "name": "Quagsire"
+    },
+    {
+      "name": "Quaquaval"
+    },
+    {
+      "name": "Quaxly"
+    },
+    {
+      "name": "Quaxwell"
+    },
+    {
+      "name": "Quilava"
+    },
+    {
+      "name": "Quilladin"
+    },
+    {
+      "name": "Qwilfish"
+    },
+    {
+      "name": "Qwilfish-Hisui"
+    },
+    {
+      "name": "Raboot"
+    },
+    {
+      "name": "Rabsca"
+    },
+    {
+      "name": "Raging Bolt"
+    },
+    {
+      "name": "Raichu"
+    },
+    {
+      "name": "Raichu-Alola"
+    },
+    {
+      "name": "Raikou"
+    },
+    {
+      "name": "Ralts"
+    },
+    {
+      "name": "Rampardos"
+    },
+    {
+      "name": "Rayquaza"
+    },
+    {
+      "name": "Regice"
+    },
+    {
+      "name": "Regidrago"
+    },
+    {
+      "name": "Regieleki"
+    },
+    {
+      "name": "Regigigas"
+    },
+    {
+      "name": "Regirock"
+    },
+    {
+      "name": "Registeel"
+    },
+    {
+      "name": "Rellor"
+    },
+    {
+      "name": "Reshiram"
+    },
+    {
+      "name": "Reuniclus"
+    },
+    {
+      "name": "Revavroom"
+    },
+    {
+      "name": "Rhydon"
+    },
+    {
+      "name": "Rhyhorn"
+    },
+    {
+      "name": "Rhyperior"
+    },
+    {
+      "name": "Ribombee"
+    },
+    {
+      "name": "Rillaboom"
+    },
+    {
+      "name": "Riolu"
+    },
+    {
+      "name": "Roaring Moon"
+    },
+    {
+      "name": "Rockruff"
+    },
+    {
+      "name": "Rockruff-Dusk"
+    },
+    {
+      "name": "Rolycoly"
+    },
+    {
+      "name": "Rookidee"
+    },
+    {
+      "name": "Rotom"
+    },
+    {
+      "name": "Rotom-Fan"
+    },
+    {
+      "name": "Rotom-Frost"
+    },
+    {
+      "name": "Rotom-Heat"
+    },
+    {
+      "name": "Rotom-Mow"
+    },
+    {
+      "name": "Rotom-Wash"
+    },
+    {
+      "name": "Rowlet"
+    },
+    {
+      "name": "Rufflet"
+    },
+    {
+      "name": "Sableye"
+    },
+    {
+      "name": "Salamence"
+    },
+    {
+      "name": "Salandit"
+    },
+    {
+      "name": "Salazzle"
+    },
+    {
+      "name": "Samurott"
+    },
+    {
+      "name": "Samurott-Hisui"
+    },
+    {
+      "name": "Sandaconda"
+    },
+    {
+      "name": "Sandile"
+    },
+    {
+      "name": "Sandshrew"
+    },
+    {
+      "name": "Sandshrew-Alola"
+    },
+    {
+      "name": "Sandslash"
+    },
+    {
+      "name": "Sandslash-Alola"
+    },
+    {
+      "name": "Sandy Shocks"
+    },
+    {
+      "name": "Sandygast"
+    },
+    {
+      "name": "Sawsbuck"
+    },
+    {
+      "name": "Sawsbuck-Autumn"
+    },
+    {
+      "name": "Sawsbuck-Summer"
+    },
+    {
+      "name": "Sawsbuck-Winter"
+    },
+    {
+      "name": "Scatterbug"
+    },
+    {
+      "name": "Scatterbug-Archipelago"
+    },
+    {
+      "name": "Scatterbug-Continental"
+    },
+    {
+      "name": "Scatterbug-Elegant"
+    },
+    {
+      "name": "Scatterbug-Fancy"
+    },
+    {
+      "name": "Scatterbug-Garden"
+    },
+    {
+      "name": "Scatterbug-High Plains"
+    },
+    {
+      "name": "Scatterbug-Jungle"
+    },
+    {
+      "name": "Scatterbug-Marine"
+    },
+    {
+      "name": "Scatterbug-Meadow"
+    },
+    {
+      "name": "Scatterbug-Modern"
+    },
+    {
+      "name": "Scatterbug-Monsoon"
+    },
+    {
+      "name": "Scatterbug-Ocean"
+    },
+    {
+      "name": "Scatterbug-Poké Ball"
+    },
+    {
+      "name": "Scatterbug-Polar"
+    },
+    {
+      "name": "Scatterbug-River"
+    },
+    {
+      "name": "Scatterbug-Sandstorm"
+    },
+    {
+      "name": "Scatterbug-Savanna"
+    },
+    {
+      "name": "Scatterbug-Sun"
+    },
+    {
+      "name": "Scatterbug-Tundra"
+    },
+    {
+      "name": "Sceptile"
+    },
+    {
+      "name": "Scizor"
+    },
+    {
+      "name": "Scorbunny"
+    },
+    {
+      "name": "Scovillain"
+    },
+    {
+      "name": "Scrafty"
+    },
+    {
+      "name": "Scraggy"
+    },
+    {
+      "name": "Scream Tail"
+    },
+    {
+      "name": "Scyther"
+    },
+    {
+      "name": "Seadra"
+    },
+    {
+      "name": "Seedot"
+    },
+    {
+      "name": "Seel"
+    },
+    {
+      "name": "Sentret"
+    },
+    {
+      "name": "Serperior"
+    },
+    {
+      "name": "Servine"
+    },
+    {
+      "name": "Seviper"
+    },
+    {
+      "name": "Sewaddle"
+    },
+    {
+      "name": "Shaymin"
+    },
+    {
+      "name": "Shaymin-Sky"
+    },
+    {
+      "name": "Shelgon"
+    },
+    {
+      "name": "Shellder"
+    },
+    {
+      "name": "Shellos"
+    },
+    {
+      "name": "Shellos-East"
+    },
+    {
+      "name": "Shieldon"
+    },
+    {
+      "name": "Shiftry"
+    },
+    {
+      "name": "Shinx"
+    },
+    {
+      "name": "Shroodle"
+    },
+    {
+      "name": "Shroomish"
+    },
+    {
+      "name": "Shuppet"
+    },
+    {
+      "name": "Silicobra"
+    },
+    {
+      "name": "Sinistcha"
+    },
+    {
+      "name": "Sinistcha-Masterpiece"
+    },
+    {
+      "name": "Sinistea"
+    },
+    {
+      "name": "Sinistea-Antique"
+    },
+    {
+      "name": "Skarmory"
+    },
+    {
+      "name": "Skeledirge"
+    },
+    {
+      "name": "Skiddo"
+    },
+    {
+      "name": "Skiploom"
+    },
+    {
+      "name": "Skrelp"
+    },
+    {
+      "name": "Skuntank"
+    },
+    {
+      "name": "Skwovet"
+    },
+    {
+      "name": "Slaking"
+    },
+    {
+      "name": "Slakoth"
+    },
+    {
+      "name": "Sliggoo"
+    },
+    {
+      "name": "Sliggoo-Hisui"
+    },
+    {
+      "name": "Slither Wing"
+    },
+    {
+      "name": "Slowbro"
+    },
+    {
+      "name": "Slowbro-Galar"
+    },
+    {
+      "name": "Slowking"
+    },
+    {
+      "name": "Slowking-Galar"
+    },
+    {
+      "name": "Slowpoke"
+    },
+    {
+      "name": "Slowpoke-Galar"
+    },
+    {
+      "name": "Slugma"
+    },
+    {
+      "name": "Smeargle"
+    },
+    {
+      "name": "Smoliv"
+    },
+    {
+      "name": "Sneasel"
+    },
+    {
+      "name": "Sneasel-Hisui"
+    },
+    {
+      "name": "Sneasler"
+    },
+    {
+      "name": "Snivy"
+    },
+    {
+      "name": "Snom"
+    },
+    {
+      "name": "Snorlax"
+    },
+    {
+      "name": "Snorunt"
+    },
+    {
+      "name": "Snover"
+    },
+    {
+      "name": "Snubbull"
+    },
+    {
+      "name": "Sobble"
+    },
+    {
+      "name": "Solgaleo"
+    },
+    {
+      "name": "Solosis"
+    },
+    {
+      "name": "Spectrier"
+    },
+    {
+      "name": "Spewpa"
+    },
+    {
+      "name": "Spewpa-Archipelago"
+    },
+    {
+      "name": "Spewpa-Continental"
+    },
+    {
+      "name": "Spewpa-Elegant"
+    },
+    {
+      "name": "Spewpa-Fancy"
+    },
+    {
+      "name": "Spewpa-Garden"
+    },
+    {
+      "name": "Spewpa-High Plains"
+    },
+    {
+      "name": "Spewpa-Jungle"
+    },
+    {
+      "name": "Spewpa-Marine"
+    },
+    {
+      "name": "Spewpa-Meadow"
+    },
+    {
+      "name": "Spewpa-Modern"
+    },
+    {
+      "name": "Spewpa-Monsoon"
+    },
+    {
+      "name": "Spewpa-Ocean"
+    },
+    {
+      "name": "Spewpa-Poké Ball"
+    },
+    {
+      "name": "Spewpa-Polar"
+    },
+    {
+      "name": "Spewpa-River"
+    },
+    {
+      "name": "Spewpa-Sandstorm"
+    },
+    {
+      "name": "Spewpa-Savanna"
+    },
+    {
+      "name": "Spewpa-Sun"
+    },
+    {
+      "name": "Spewpa-Tundra"
+    },
+    {
+      "name": "Spidops"
+    },
+    {
+      "name": "Spinarak"
+    },
+    {
+      "name": "Spiritomb"
+    },
+    {
+      "name": "Spoink"
+    },
+    {
+      "name": "Sprigatito"
+    },
+    {
+      "name": "Squawkabilly"
+    },
+    {
+      "name": "Squawkabilly-Blue"
+    },
+    {
+      "name": "Squawkabilly-White"
+    },
+    {
+      "name": "Squawkabilly-Yellow"
+    },
+    {
+      "name": "Squirtle"
+    },
+    {
+      "name": "Stantler"
+    },
+    {
+      "name": "Staraptor"
+    },
+    {
+      "name": "Staravia"
+    },
+    {
+      "name": "Starly"
+    },
+    {
+      "name": "Steenee"
+    },
+    {
+      "name": "Stonjourner"
+    },
+    {
+      "name": "Stunky"
+    },
+    {
+      "name": "Sudowoodo"
+    },
+    {
+      "name": "Suicune"
+    },
+    {
+      "name": "Sunflora"
+    },
+    {
+      "name": "Sunkern"
+    },
+    {
+      "name": "Surskit"
+    },
+    {
+      "name": "Swablu"
+    },
+    {
+      "name": "Swadloon"
+    },
+    {
+      "name": "Swalot"
+    },
+    {
+      "name": "Swampert"
+    },
+    {
+      "name": "Swanna"
+    },
+    {
+      "name": "Swinub"
+    },
+    {
+      "name": "Sylveon"
+    },
+    {
+      "name": "Tadbulb"
+    },
+    {
+      "name": "Talonflame"
+    },
+    {
+      "name": "Tandemaus"
+    },
+    {
+      "name": "Tarountula"
+    },
+    {
+      "name": "Tatsugiri"
+    },
+    {
+      "name": "Tatsugiri-Droopy"
+    },
+    {
+      "name": "Tatsugiri-Stretchy"
+    },
+    {
+      "name": "Tauros"
+    },
+    {
+      "name": "Tauros-Paldea Aqua"
+    },
+    {
+      "name": "Tauros-Paldea Blaze"
+    },
+    {
+      "name": "Tauros-Paldea Combat"
+    },
+    {
+      "name": "Teddiursa"
+    },
+    {
+      "name": "Tentacool"
+    },
+    {
+      "name": "Tentacruel"
+    },
+    {
+      "name": "Tepig"
+    },
+    {
+      "name": "Terapagos"
+    },
+    {
+      "name": "Terrakion"
+    },
+    {
+      "name": "Thundurus"
+    },
+    {
+      "name": "Thundurus-Therian"
+    },
+    {
+      "name": "Thwackey"
+    },
+    {
+      "name": "Timburr"
+    },
+    {
+      "name": "Ting-Lu"
+    },
+    {
+      "name": "Tinkatink"
+    },
+    {
+      "name": "Tinkaton"
+    },
+    {
+      "name": "Tinkatuff"
+    },
+    {
+      "name": "Toedscool"
+    },
+    {
+      "name": "Toedscruel"
+    },
+    {
+      "name": "Torchic"
+    },
+    {
+      "name": "Torkoal"
+    },
+    {
+      "name": "Tornadus"
+    },
+    {
+      "name": "Tornadus-Therian"
+    },
+    {
+      "name": "Torracat"
+    },
+    {
+      "name": "Torterra"
+    },
+    {
+      "name": "Totodile"
+    },
+    {
+      "name": "Toucannon"
+    },
+    {
+      "name": "Toxapex"
+    },
+    {
+      "name": "Toxel"
+    },
+    {
+      "name": "Toxicroak"
+    },
+    {
+      "name": "Toxtricity"
+    },
+    {
+      "name": "Toxtricity-Low Key"
+    },
+    {
+      "name": "Trapinch"
+    },
+    {
+      "name": "Treecko"
+    },
+    {
+      "name": "Trevenant"
+    },
+    {
+      "name": "Tropius"
+    },
+    {
+      "name": "Trumbeak"
+    },
+    {
+      "name": "Tsareena"
+    },
+    {
+      "name": "Turtwig"
+    },
+    {
+      "name": "Tynamo"
+    },
+    {
+      "name": "Typhlosion"
+    },
+    {
+      "name": "Typhlosion-Hisui"
+    },
+    {
+      "name": "Tyranitar"
+    },
+    {
+      "name": "Tyrogue"
+    },
+    {
+      "name": "Umbreon"
+    },
+    {
+      "name": "Ursaluna"
+    },
+    {
+      "name": "Ursaluna-Bloodmoon"
+    },
+    {
+      "name": "Ursaring"
+    },
+    {
+      "name": "Urshifu"
+    },
+    {
+      "name": "Urshifu-Rapid Strike"
+    },
+    {
+      "name": "Uxie"
+    },
+    {
+      "name": "Vaporeon"
+    },
+    {
+      "name": "Varoom"
+    },
+    {
+      "name": "Veluza"
+    },
+    {
+      "name": "Venomoth"
+    },
+    {
+      "name": "Venonat"
+    },
+    {
+      "name": "Venusaur"
+    },
+    {
+      "name": "Vespiquen"
+    },
+    {
+      "name": "Vibrava"
+    },
+    {
+      "name": "Victreebel"
+    },
+    {
+      "name": "Vigoroth"
+    },
+    {
+      "name": "Vikavolt"
+    },
+    {
+      "name": "Vileplume"
+    },
+    {
+      "name": "Virizion"
+    },
+    {
+      "name": "Vivillon"
+    },
+    {
+      "name": "Vivillon-Archipelago"
+    },
+    {
+      "name": "Vivillon-Continental"
+    },
+    {
+      "name": "Vivillon-Elegant"
+    },
+    {
+      "name": "Vivillon-Fancy"
+    },
+    {
+      "name": "Vivillon-Garden"
+    },
+    {
+      "name": "Vivillon-High Plains"
+    },
+    {
+      "name": "Vivillon-Jungle"
+    },
+    {
+      "name": "Vivillon-Marine"
+    },
+    {
+      "name": "Vivillon-Meadow"
+    },
+    {
+      "name": "Vivillon-Modern"
+    },
+    {
+      "name": "Vivillon-Monsoon"
+    },
+    {
+      "name": "Vivillon-Ocean"
+    },
+    {
+      "name": "Vivillon-Poké Ball"
+    },
+    {
+      "name": "Vivillon-Polar"
+    },
+    {
+      "name": "Vivillon-River"
+    },
+    {
+      "name": "Vivillon-Sandstorm"
+    },
+    {
+      "name": "Vivillon-Savanna"
+    },
+    {
+      "name": "Vivillon-Sun"
+    },
+    {
+      "name": "Vivillon-Tundra"
+    },
+    {
+      "name": "Volbeat"
+    },
+    {
+      "name": "Volcanion"
+    },
+    {
+      "name": "Volcarona"
+    },
+    {
+      "name": "Voltorb"
+    },
+    {
+      "name": "Voltorb-Hisui"
+    },
+    {
+      "name": "Vullaby"
+    },
+    {
+      "name": "Vulpix"
+    },
+    {
+      "name": "Vulpix-Alola"
+    },
+    {
+      "name": "Walking Wake"
+    },
+    {
+      "name": "Wartortle"
+    },
+    {
+      "name": "Wattrel"
+    },
+    {
+      "name": "Weavile"
+    },
+    {
+      "name": "Weepinbell"
+    },
+    {
+      "name": "Weezing"
+    },
+    {
+      "name": "Weezing-Galar"
+    },
+    {
+      "name": "Whimsicott"
+    },
+    {
+      "name": "Whiscash"
+    },
+    {
+      "name": "Wigglytuff"
+    },
+    {
+      "name": "Wiglett"
+    },
+    {
+      "name": "Wingull"
+    },
+    {
+      "name": "Wo-Chien"
+    },
+    {
+      "name": "Wooper"
+    },
+    {
+      "name": "Wooper-Paldea"
+    },
+    {
+      "name": "Wugtrio"
+    },
+    {
+      "name": "Wyrdeer"
+    },
+    {
+      "name": "Yanma"
+    },
+    {
+      "name": "Yanmega"
+    },
+    {
+      "name": "Yungoos"
+    },
+    {
+      "name": "Zacian"
+    },
+    {
+      "name": "Zamazenta"
+    },
+    {
+      "name": "Zangoose"
+    },
+    {
+      "name": "Zapdos"
+    }
+  ]
+}
