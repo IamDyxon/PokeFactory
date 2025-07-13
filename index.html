@@ -69,6 +69,7 @@
 <option value="">Selecciona un género</option>
 <option value="Male">Macho</option>
 <option value="Female">Hembra</option>
+<option value="Random">Aleatorio</option>
 </select>
 </div>
 <div>
@@ -234,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const evTotalDisplay = document.createElement("div");
   evTotalDisplay.id = "evTotalDisplay";
-  evTotalDisplay.innerHTML = "<strong>Total EVs:</strong> <span id='evTotalValue'>0</span> / 510";
+  evTotalDisplay.innerHTML = "<strong>Total EVs:</strong> <span id='evTotalValue'>0</span> / 508";
   evContainer.parentElement.appendChild(evTotalDisplay);
 
   let evTotal = 0;
@@ -244,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let total = 0;
     sliders.forEach(slider => total += parseInt(slider.value));
     document.getElementById("evTotalValue").innerText = total;
-    if (total > 510) {
+    if (total > 508) {
       document.getElementById("evTotalDisplay").style.color = "red";
     } else {
       document.getElementById("evTotalDisplay").style.color = "#000";
@@ -278,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
     slider.addEventListener("input", () => {
       let total = 0;
       sliders.forEach(s => total += parseInt(s.value));
-      if (total > 510) {
+      if (total > 508) {
         slider.value = slider.dataset.lastValid;
       } else {
         slider.dataset.lastValid = slider.value;

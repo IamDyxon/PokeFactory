@@ -1,0 +1,1727 @@
+[
+  {
+    "label": "Cápsula habilidad",
+    "value": "Ability Capsule",
+    "icon": "images/Items/capsula_habilidad.png"
+  },
+  {
+    "label": "Parche habilidad",
+    "value": "Ability Patch",
+    "icon": "images/Items/parche_habilidad.png"
+  },
+  {
+    "label": "Escudo habilidad",
+    "value": "Ability Shield",
+    "icon": "images/Items/escudo_habilidad.png"
+  },
+  {
+    "label": "Tubérculo",
+    "value": "Absorb Bulb",
+    "icon": "images/Items/tuberculo.png"
+  },
+  {
+    "label": "Gran diamansfera",
+    "value": "Adamant Crystal",
+    "icon": "images/Items/gran_diamansfera.png"
+  },
+  {
+    "label": "Menta firme",
+    "value": "Adamant Mint",
+    "icon": "images/Items/menta_firme.png"
+  },
+  {
+    "label": "Diamansfera",
+    "value": "Adamant Orb",
+    "icon": "images/Items/diamansfera.png"
+  },
+  {
+    "label": "Nerviosfera",
+    "value": "Adrenaline Orb",
+    "icon": "images/Items/nerviosfera.png"
+  },
+  {
+    "label": "Baya Guaya",
+    "value": "Aguav Berry",
+    "icon": "images/Items/baya_guaya.png"
+  },
+  {
+    "label": "Globo helio",
+    "value": "Air Balloon",
+    "icon": "images/Items/globo_helio.png"
+  },
+  {
+    "label": "Moneda amuleto",
+    "value": "Amulet Coin",
+    "icon": "images/Items/moneda_amuleto.png"
+  },
+  {
+    "label": "Antídoto",
+    "value": "Antidote",
+    "icon": "images/Items/antidoto.png"
+  },
+  {
+    "label": "Baya Aricoc",
+    "value": "Apicot Berry",
+    "icon": "images/Items/baya_aricoc.png"
+  },
+  {
+    "label": "Baya Perasi",
+    "value": "Aspear Berry",
+    "icon": "images/Items/baya_perasi.png"
+  },
+  {
+    "label": "Chaleco asalto",
+    "value": "Assault Vest",
+    "icon": "images/Items/chaleco_asalto.png"
+  },
+  {
+    "label": "Armadura auspiciosa",
+    "value": "Auspicious Armor",
+    "icon": "images/Items/armadura_auspiciosa.png"
+  },
+  {
+    "label": "Despertar",
+    "value": "Awakening",
+    "icon": "images/Items/despertar.png"
+  },
+  {
+    "label": "Baya Baribá",
+    "value": "Babiri Berry",
+    "icon": "images/Items/baya_bariba.png"
+  },
+  {
+    "label": "Seta aroma",
+    "value": "Balm Mushroom",
+    "icon": "images/Items/seta_aroma.png"
+  },
+  {
+    "label": "Ente Ball",
+    "value": "Beast Ball",
+    "icon": "images/Items/ente_ball.png"
+  },
+  {
+    "label": "Bambú grande",
+    "value": "Big Bamboo Shoot",
+    "icon": "images/Items/bambu_grande.png"
+  },
+  {
+    "label": "Seta grande",
+    "value": "Big Mushroom",
+    "icon": "images/Items/seta_grande.png"
+  },
+  {
+    "label": "Maxipepita",
+    "value": "Big Nugget",
+    "icon": "images/Items/maxipepita.png"
+  },
+  {
+    "label": "Perla grande",
+    "value": "Big Pearl",
+    "icon": "images/Items/perla_grande.png"
+  },
+  {
+    "label": "Raíz grande",
+    "value": "Big Root",
+    "icon": "images/Items/raiz_grande.png"
+  },
+  {
+    "label": "Banda atadura",
+    "value": "Binding Band",
+    "icon": "images/Items/banda_atadura.png"
+  },
+  {
+    "label": "Cinturón Negro",
+    "value": "Black Belt",
+    "icon": "images/Items/cinturon_negro.png"
+  },
+  {
+    "label": "Gafas de sol",
+    "value": "Black Glasses",
+    "icon": "images/Items/gafas_de_sol.png"
+  },
+  {
+    "label": "Lodo negro",
+    "value": "Black Sludge",
+    "icon": "images/Items/lodo_negro.png"
+  },
+  {
+    "label": "Seguro fallo",
+    "value": "Blunder Policy",
+    "icon": "images/Items/seguro_fallo.png"
+  },
+  {
+    "label": "Menta osada",
+    "value": "Bold Mint",
+    "icon": "images/Items/menta_osada.png"
+  },
+  {
+    "label": "Energía potenciadora",
+    "value": "Booster Energy",
+    "icon": "images/Items/energia_potenciadora.png"
+  },
+  {
+    "label": "Chapa plateada",
+    "value": "Bottle Cap",
+    "icon": "images/Items/chapa_plateada.png"
+  },
+  {
+    "label": "Menta audaz",
+    "value": "Brave Mint",
+    "icon": "images/Items/menta_audaz.png"
+  },
+  {
+    "label": "Polvo brillo",
+    "value": "Bright Powder",
+    "icon": "images/Items/polvo_brillo.png"
+  },
+  {
+    "label": "Teralito bicho",
+    "value": "Bug Tera Shard",
+    "icon": "images/Items/teralito_bicho.png"
+  },
+  {
+    "label": "Antiquemar",
+    "value": "Burn Heal",
+    "icon": "images/Items/antiquemar.png"
+  },
+  {
+    "label": "Calcio",
+    "value": "Calcium",
+    "icon": "images/Items/calcio.png"
+  },
+  {
+    "label": "Menta serena",
+    "value": "Calm Mint",
+    "icon": "images/Items/menta_serena.png"
+  },
+  {
+    "label": "Carburante",
+    "value": "Carbos",
+    "icon": "images/Items/carburante.png"
+  },
+  {
+    "label": "Menta cauta",
+    "value": "Careful Mint",
+    "icon": "images/Items/menta_cauta.png"
+  },
+  {
+    "label": "Pila",
+    "value": "Cell Battery",
+    "icon": "images/Items/pila.png"
+  },
+  {
+    "label": "Carbón",
+    "value": "Charcoal",
+    "icon": "images/Items/carbon.png"
+  },
+  {
+    "label": "Baya Alcho",
+    "value": "Charti Berry",
+    "icon": "images/Items/baya_alcho.png"
+  },
+  {
+    "label": "Baya Zreza",
+    "value": "Cheri Berry",
+    "icon": "images/Items/baya_zreza.png"
+  },
+  {
+    "label": "Baya Atania",
+    "value": "Chesto Berry",
+    "icon": "images/Items/baya_atania.png"
+  },
+  {
+    "label": "Baya Chilan",
+    "value": "Chilan Berry",
+    "icon": "images/Items/baya_chilan.png"
+  },
+  {
+    "label": "Tetera rota",
+    "value": "Chipped Pot",
+    "icon": "images/Items/tetera_rota.png"
+  },
+  {
+    "label": "Cinta elección15",
+    "value": "Choice Band",
+    "icon": "images/Items/cinta_eleccion15.png"
+  },
+  {
+    "label": "Pañuelo elección23",
+    "value": "Choice Scarf",
+    "icon": "images/Items/panuelo_eleccion23.png"
+  },
+  {
+    "label": "Gafas elección24",
+    "value": "Choice Specs",
+    "icon": "images/Items/gafas_eleccion24.png"
+  },
+  {
+    "label": "Baya Pomaro",
+    "value": "Chople Berry",
+    "icon": "images/Items/baya_pomaro.png"
+  },
+  {
+    "label": "Amuleto",
+    "value": "Cleanse Tag",
+    "icon": "images/Items/amuleto.png"
+  },
+  {
+    "label": "Amuleto puro",
+    "value": "Clear Amulet",
+    "icon": "images/Items/amuleto_puro.png"
+  },
+  {
+    "label": "Pluma mente",
+    "value": "Clever Feather",
+    "icon": "images/Items/pluma_mente.png"
+  },
+  {
+    "label": "Mochi mente",
+    "value": "Clever Mochi",
+    "icon": "images/Items/mochi_mente.png"
+  },
+  {
+    "label": "Baya Kouba",
+    "value": "Coba Berry",
+    "icon": "images/Items/baya_kouba.png"
+  },
+  {
+    "label": "Baya Dillo",
+    "value": "Colbur Berry",
+    "icon": "images/Items/baya_dillo.png"
+  },
+  {
+    "label": "Fragmento cometa",
+    "value": "Comet Shard",
+    "icon": "images/Items/fragmento_cometa.png"
+  },
+  {
+    "label": "Máscara cimiento",
+    "value": "Cornerstone Mask",
+    "icon": "images/Items/mascara_cimiento.png"
+  },
+  {
+    "label": "Capa furtiva",
+    "value": "Covert Cloak",
+    "icon": "images/Items/capa_furtiva.png"
+  },
+  {
+    "label": "Tetera agrietada",
+    "value": "Cracked Pot",
+    "icon": "images/Items/tetera_agrietada.png"
+  },
+  {
+    "label": "Roca lluvia",
+    "value": "Damp Rock",
+    "icon": "images/Items/roca_lluvia.png"
+  },
+  {
+    "label": "Teralito siniestro",
+    "value": "Dark Tera Shard",
+    "icon": "images/Items/teralito_siniestro.png"
+  },
+  {
+    "label": "Piedra alba",
+    "value": "Dawn Stone",
+    "icon": "images/Items/piedra_alba.png"
+  },
+  {
+    "label": "Lazo destino",
+    "value": "Destiny Knot",
+    "icon": "images/Items/lazo_destino.png"
+  },
+  {
+    "label": "Gragea crítica",
+    "value": "Dire Hit",
+    "icon": "images/Items/gragea_critica.png"
+  },
+  {
+    "label": "Buceo Ball",
+    "value": "Dive Ball",
+    "icon": "images/Items/buceo_ball.png"
+  },
+  {
+    "label": "Tabla draco",
+    "value": "Draco Plate",
+    "icon": "images/Items/tabla_draco.png"
+  },
+  {
+    "label": "Colmillo dragón",
+    "value": "Dragon Fang",
+    "icon": "images/Items/colmillo_dragon.png"
+  },
+  {
+    "label": "Teralito dragón",
+    "value": "Dragon Tera Shard",
+    "icon": "images/Items/teralito_dragon.png"
+  },
+  {
+    "label": "Tabla oscura",
+    "value": "Dread Plate",
+    "icon": "images/Items/tabla_oscura.png"
+  },
+  {
+    "label": "Ensueño Ball",
+    "value": "Dream Ball",
+    "icon": "images/Items/ensueno_ball.png"
+  },
+  {
+    "label": "Ocaso Ball",
+    "value": "Dusk Ball",
+    "icon": "images/Items/ocaso_ball.png"
+  },
+  {
+    "label": "Piedra noche",
+    "value": "Dusk Stone",
+    "icon": "images/Items/piedra_noche.png"
+  },
+  {
+    "label": "Tabla terrax",
+    "value": "Earth Plate",
+    "icon": "images/Items/tabla_terrax.png"
+  },
+  {
+    "label": "Botón escape",
+    "value": "Eject Button",
+    "icon": "images/Items/boton_escape.png"
+  },
+  {
+    "label": "Mochila escape",
+    "value": "Eject Pack",
+    "icon": "images/Items/mochila_escape.png"
+  },
+  {
+    "label": "Semilla electro",
+    "value": "Electric Seed",
+    "icon": "images/Items/semilla_electro.png"
+  },
+  {
+    "label": "Teralito eléctrico",
+    "value": "Electric Tera Shard",
+    "icon": "images/Items/teralito_electrico.png"
+  },
+  {
+    "label": "Elixir",
+    "value": "Elixir",
+    "icon": "images/Items/elixir.png"
+  },
+  {
+    "label": "Polvo energía1",
+    "value": "Energy Powder",
+    "icon": "images/Items/polvo_energia1.png"
+  },
+  {
+    "label": "Raíz energía",
+    "value": "Energy Root",
+    "icon": "images/Items/raiz_energia.png"
+  },
+  {
+    "label": "Éter",
+    "value": "Ether",
+    "icon": "images/Items/eter.png"
+  },
+  {
+    "label": "Piedra eterna17",
+    "value": "Everstone",
+    "icon": "images/Items/piedra_eterna17.png"
+  },
+  {
+    "label": "Mineral evolutivo",
+    "value": "Eviolite",
+    "icon": "images/Items/mineral_evolutivo.png"
+  },
+  {
+    "label": "Caramelo experiencia L",
+    "value": "Exp. Candy L",
+    "icon": "images/Items/caramelo_experiencia_l.png"
+  },
+  {
+    "label": "Caramelo experiencia M",
+    "value": "Exp. Candy M",
+    "icon": "images/Items/caramelo_experiencia_m.png"
+  },
+  {
+    "label": "Caramelo experiencia S",
+    "value": "Exp. Candy S",
+    "icon": "images/Items/caramelo_experiencia_s.png"
+  },
+  {
+    "label": "Caramelo experiencia XL",
+    "value": "Exp. Candy XL",
+    "icon": "images/Items/caramelo_experiencia_xl.png"
+  },
+  {
+    "label": "Caramelo experiencia XS",
+    "value": "Exp. Candy XS",
+    "icon": "images/Items/caramelo_experiencia_xs.png"
+  },
+  {
+    "label": "Cinta experto22",
+    "value": "Expert Belt",
+    "icon": "images/Items/cinta_experto22.png"
+  },
+  {
+    "label": "Pluma feérica",
+    "value": "Fairy Feather",
+    "icon": "images/Items/pluma_feerica.png"
+  },
+  {
+    "label": "Teralito hada",
+    "value": "Fairy Tera Shard",
+    "icon": "images/Items/teralito_hada.png"
+  },
+  {
+    "label": "Rapid Ball",
+    "value": "Fast Ball",
+    "icon": "images/Items/rapid_ball.png"
+  },
+  {
+    "label": "Teralito lucha",
+    "value": "Fighting Tera Shard",
+    "icon": "images/Items/teralito_lucha.png"
+  },
+  {
+    "label": "Baya Higog",
+    "value": "Figy Berry",
+    "icon": "images/Items/baya_higog.png"
+  },
+  {
+    "label": "Piedra fuego",
+    "value": "Fire Stone",
+    "icon": "images/Items/piedra_fuego.png"
+  },
+  {
+    "label": "Teralito fuego",
+    "value": "Fire Tera Shard",
+    "icon": "images/Items/teralito_fuego.png"
+  },
+  {
+    "label": "Tabla fuerte",
+    "value": "Fist Plate",
+    "icon": "images/Items/tabla_fuerte.png"
+  },
+  {
+    "label": "Llamasfera",
+    "value": "Flame Orb",
+    "icon": "images/Items/llamasfera.png"
+  },
+  {
+    "label": "Tabla llama",
+    "value": "Flame Plate",
+    "icon": "images/Items/tabla_llama.png"
+  },
+  {
+    "label": "Piedra pómez",
+    "value": "Float Stone",
+    "icon": "images/Items/piedra_pomez.png"
+  },
+  {
+    "label": "Teralito volador",
+    "value": "Flying Tera Shard",
+    "icon": "images/Items/teralito_volador.png"
+  },
+  {
+    "label": "Cinta aguante",
+    "value": "Focus Band",
+    "icon": "images/Items/cinta_aguante.png"
+  },
+  {
+    "label": "Banda aguante",
+    "value": "Focus Sash",
+    "icon": "images/Items/banda_aguante.png"
+  },
+  {
+    "label": "Agua fresca",
+    "value": "Fresh Water",
+    "icon": "images/Items/agua_fresca.png"
+  },
+  {
+    "label": "Mochi reinicio",
+    "value": "Fresh-Start Mochi",
+    "icon": "images/Items/mochi_reinicio.png"
+  },
+  {
+    "label": "Amigo Ball",
+    "value": "Friend Ball",
+    "icon": "images/Items/amigo_ball.png"
+  },
+  {
+    "label": "Cura total",
+    "value": "Full Heal",
+    "icon": "images/Items/cura_total.png"
+  },
+  {
+    "label": "Restaurar todo",
+    "value": "Full Restore",
+    "icon": "images/Items/restaurar_todo.png"
+  },
+  {
+    "label": "Baya Gonlan",
+    "value": "Ganlon Berry",
+    "icon": "images/Items/baya_gonlan.png"
+  },
+  {
+    "label": "Pluma intelecto",
+    "value": "Genius Feather",
+    "icon": "images/Items/pluma_intelecto.png"
+  },
+  {
+    "label": "Mochi intelecto",
+    "value": "Genius Mochi",
+    "icon": "images/Items/mochi_intelecto.png"
+  },
+  {
+    "label": "Menta amable",
+    "value": "Gentle Mint",
+    "icon": "images/Items/menta_amable.png"
+  },
+  {
+    "label": "Teralito fantasma",
+    "value": "Ghost Tera Shard",
+    "icon": "images/Items/teralito_fantasma.png"
+  },
+  {
+    "label": "Chapa dorada",
+    "value": "Gold Bottle Cap",
+    "icon": "images/Items/chapa_dorada.png"
+  },
+  {
+    "label": "Teralito planta",
+    "value": "Grass Tera Shard",
+    "icon": "images/Items/teralito_planta.png"
+  },
+  {
+    "label": "Semilla hierba",
+    "value": "Grassy Seed",
+    "icon": "images/Items/semilla_hierba.png"
+  },
+  {
+    "label": "Super Ball",
+    "value": "Great Ball",
+    "icon": "images/Items/super_ball.png"
+  },
+  {
+    "label": "Baya Uvav",
+    "value": "Grepa Berry",
+    "icon": "images/Items/baya_uvav.png"
+  },
+  {
+    "label": "Garra garfio",
+    "value": "Grip Claw",
+    "icon": "images/Items/garra_garfio.png"
+  },
+  {
+    "label": "Gran griseosfera",
+    "value": "Griseous Core",
+    "icon": "images/Items/gran_griseosfera.png"
+  },
+  {
+    "label": "Griseosfera",
+    "value": "Griseous Orb",
+    "icon": "images/Items/griseosfera.png"
+  },
+  {
+    "label": "Teralito tierra",
+    "value": "Ground Tera Shard",
+    "icon": "images/Items/teralito_tierra.png"
+  },
+  {
+    "label": "Protección X5",
+    "value": "Guard Spec.",
+    "icon": "images/Items/proteccion_x5.png"
+  },
+  {
+    "label": "Más PS",
+    "value": "HP Up",
+    "icon": "images/Items/mas_ps.png"
+  },
+  {
+    "label": "Baya Anjiro",
+    "value": "Haban Berry",
+    "icon": "images/Items/baya_anjiro.png"
+  },
+  {
+    "label": "Piedra dura",
+    "value": "Hard Stone",
+    "icon": "images/Items/piedra_dura.png"
+  },
+  {
+    "label": "Menta activa",
+    "value": "Hasty Mint",
+    "icon": "images/Items/menta_activa.png"
+  },
+  {
+    "label": "Sana Ball",
+    "value": "Heal Ball",
+    "icon": "images/Items/sana_ball.png"
+  },
+  {
+    "label": "Polvo curación",
+    "value": "Heal Powder",
+    "icon": "images/Items/polvo_curacion.png"
+  },
+  {
+    "label": "Pluma vigor",
+    "value": "Health Feather",
+    "icon": "images/Items/pluma_vigor.png"
+  },
+  {
+    "label": "Mochi vigor",
+    "value": "Health Mochi",
+    "icon": "images/Items/mochi_vigor.png"
+  },
+  {
+    "label": "Máscara horno",
+    "value": "Hearthflame Mask",
+    "icon": "images/Items/mascara_horno.png"
+  },
+  {
+    "label": "Roca calor",
+    "value": "Heat Rock",
+    "icon": "images/Items/roca_calor.png"
+  },
+  {
+    "label": "Peso Ball",
+    "value": "Heavy Ball",
+    "icon": "images/Items/peso_ball.png"
+  },
+  {
+    "label": "Botas gruesas",
+    "value": "Heavy-Duty Boots",
+    "icon": "images/Items/botas_gruesas.png"
+  },
+  {
+    "label": "Baya Meluce",
+    "value": "Hondew Berry",
+    "icon": "images/Items/baya_meluce.png"
+  },
+  {
+    "label": "Miel",
+    "value": "Honey",
+    "icon": "images/Items/miel.png"
+  },
+  {
+    "label": "Hiperpoción",
+    "value": "Hyper Potion",
+    "icon": "images/Items/hiperpocion.png"
+  },
+  {
+    "label": "Baya Pabaya",
+    "value": "Iapapa Berry",
+    "icon": "images/Items/baya_pabaya.png"
+  },
+  {
+    "label": "Antihielo",
+    "value": "Ice Heal",
+    "icon": "images/Items/antihielo.png"
+  },
+  {
+    "label": "Piedra hielo",
+    "value": "Ice Stone",
+    "icon": "images/Items/piedra_hielo.png"
+  },
+  {
+    "label": "Teralito hielo",
+    "value": "Ice Tera Shard",
+    "icon": "images/Items/teralito_hielo.png"
+  },
+  {
+    "label": "Tabla helada",
+    "value": "Icicle Plate",
+    "icon": "images/Items/tabla_helada.png"
+  },
+  {
+    "label": "Roca helada",
+    "value": "Icy Rock",
+    "icon": "images/Items/roca_helada.png"
+  },
+  {
+    "label": "Menta agitada",
+    "value": "Impish Mint",
+    "icon": "images/Items/menta_agitada.png"
+  },
+  {
+    "label": "Tabla bicho",
+    "value": "Insect Plate",
+    "icon": "images/Items/tabla_bicho.png"
+  },
+  {
+    "label": "Hierro",
+    "value": "Iron",
+    "icon": "images/Items/hierro.png"
+  },
+  {
+    "label": "Bola férrea",
+    "value": "Iron Ball",
+    "icon": "images/Items/bola_ferrea.png"
+  },
+  {
+    "label": "Tabla acero",
+    "value": "Iron Plate",
+    "icon": "images/Items/tabla_acero.png"
+  },
+  {
+    "label": "Menta alegre",
+    "value": "Jolly Mint",
+    "icon": "images/Items/menta_alegre.png"
+  },
+  {
+    "label": "Baya Drasi",
+    "value": "Kasib Berry",
+    "icon": "images/Items/baya_drasi.png"
+  },
+  {
+    "label": "Baya Kebia",
+    "value": "Kebia Berry",
+    "icon": "images/Items/baya_kebia.png"
+  },
+  {
+    "label": "Baya Biglia",
+    "value": "Kee Berry",
+    "icon": "images/Items/baya_biglia.png"
+  },
+  {
+    "label": "Baya Algama",
+    "value": "Kelpsy Berry",
+    "icon": "images/Items/baya_algama.png"
+  },
+  {
+    "label": "Cola plúmbea",
+    "value": "Lagging Tail",
+    "icon": "images/Items/cola_plumbea.png"
+  },
+  {
+    "label": "Baya Zonlan",
+    "value": "Lansat Berry",
+    "icon": "images/Items/baya_zonlan.png"
+  },
+  {
+    "label": "Menta floja",
+    "value": "Lax Mint",
+    "icon": "images/Items/menta_floja.png"
+  },
+  {
+    "label": "Piedra hoja",
+    "value": "Leaf Stone",
+    "icon": "images/Items/piedra_hoja.png"
+  },
+  {
+    "label": "Restos",
+    "value": "Leftovers",
+    "icon": "images/Items/restos.png"
+  },
+  {
+    "label": "Limonada",
+    "value": "Lemonade",
+    "icon": "images/Items/limonada.png"
+  },
+  {
+    "label": "Baya Zanama",
+    "value": "Leppa Berry",
+    "icon": "images/Items/baya_zanama.png"
+  },
+  {
+    "label": "Nivel Ball",
+    "value": "Level Ball",
+    "icon": "images/Items/nivel_ball.png"
+  },
+  {
+    "label": "Baya Lichi",
+    "value": "Liechi Berry",
+    "icon": "images/Items/baya_lichi.png"
+  },
+  {
+    "label": "Vidasfera",
+    "value": "Life Orb",
+    "icon": "images/Items/vidasfera.png"
+  },
+  {
+    "label": "Bola luminosa19",
+    "value": "Light Ball",
+    "icon": "images/Items/bola_luminosa19.png"
+  },
+  {
+    "label": "Refleluz",
+    "value": "Light Clay",
+    "icon": "images/Items/refleluz.png"
+  },
+  {
+    "label": "Dado trucado",
+    "value": "Loaded Dice",
+    "icon": "images/Items/dado_trucado.png"
+  },
+  {
+    "label": "Menta huraña",
+    "value": "Lonely Mint",
+    "icon": "images/Items/menta_hurana.png"
+  },
+  {
+    "label": "Amor Ball",
+    "value": "Love Ball",
+    "icon": "images/Items/amor_ball.png"
+  },
+  {
+    "label": "Huevo suerte",
+    "value": "Lucky Egg",
+    "icon": "images/Items/huevo_suerte.png"
+  },
+  {
+    "label": "Baya Ziuela",
+    "value": "Lum Berry",
+    "icon": "images/Items/baya_ziuela.png"
+  },
+  {
+    "label": "Musgo brillante",
+    "value": "Luminous Moss",
+    "icon": "images/Items/musgo_brillante.png"
+  },
+  {
+    "label": "Cebo Ball",
+    "value": "Lure Ball",
+    "icon": "images/Items/cebo_ball.png"
+  },
+  {
+    "label": "Gran lustresfera",
+    "value": "Lustrous Globe",
+    "icon": "images/Items/gran_lustresfera.png"
+  },
+  {
+    "label": "Lustresfera",
+    "value": "Lustrous Orb",
+    "icon": "images/Items/lustresfera.png"
+  },
+  {
+    "label": "Lujo Ball",
+    "value": "Luxury Ball",
+    "icon": "images/Items/lujo_ball.png"
+  },
+  {
+    "label": "Imán",
+    "value": "Magnet",
+    "icon": "images/Items/iman.png"
+  },
+  {
+    "label": "Baya Ango",
+    "value": "Mago Berry",
+    "icon": "images/Items/baya_ango.png"
+  },
+  {
+    "label": "Armadura maldita",
+    "value": "Malicious Armor",
+    "icon": "images/Items/armadura_maldita.png"
+  },
+  {
+    "label": "Baya Maranga",
+    "value": "Maranga Berry",
+    "icon": "images/Items/baya_maranga.png"
+  },
+  {
+    "label": "Master Ball",
+    "value": "Master Ball",
+    "icon": "images/Items/master_ball.png"
+  },
+  {
+    "label": "Cuenco exquisito",
+    "value": "Masterpiece Teacup",
+    "icon": "images/Items/cuenco_exquisito.png"
+  },
+  {
+    "label": "Elixir máximo3",
+    "value": "Max Elixir",
+    "icon": "images/Items/elixir_maximo3.png"
+  },
+  {
+    "label": "Éter máximo2",
+    "value": "Max Ether",
+    "icon": "images/Items/eter_maximo2.png"
+  },
+  {
+    "label": "Poción máxima",
+    "value": "Max Potion",
+    "icon": "images/Items/pocion_maxima.png"
+  },
+  {
+    "label": "Revivir máximo",
+    "value": "Max Revive",
+    "icon": "images/Items/revivir_maximo.png"
+  },
+  {
+    "label": "Tabla pradal",
+    "value": "Meadow Plate",
+    "icon": "images/Items/tabla_pradal.png"
+  },
+  {
+    "label": "Hierba mental",
+    "value": "Mental Herb",
+    "icon": "images/Items/hierba_mental.png"
+  },
+  {
+    "label": "Metal compuesto",
+    "value": "Metal Alloy",
+    "icon": "images/Items/metal_compuesto.png"
+  },
+  {
+    "label": "Revestimiento metálico",
+    "value": "Metal Coat",
+    "icon": "images/Items/revestimiento_metalico.png"
+  },
+  {
+    "label": "Metrónomo",
+    "value": "Metronome",
+    "icon": "images/Items/metronomo.png"
+  },
+  {
+    "label": "Menta afable",
+    "value": "Mild Mint",
+    "icon": "images/Items/menta_afable.png"
+  },
+  {
+    "label": "Tabla mental",
+    "value": "Mind Plate",
+    "icon": "images/Items/tabla_mental.png"
+  },
+  {
+    "label": "Semilla milagro",
+    "value": "Miracle Seed",
+    "icon": "images/Items/semilla_milagro.png"
+  },
+  {
+    "label": "Hierba copia",
+    "value": "Mirror Herb",
+    "icon": "images/Items/hierba_copia.png"
+  },
+  {
+    "label": "Semilla bruma",
+    "value": "Misty Seed",
+    "icon": "images/Items/semilla_bruma.png"
+  },
+  {
+    "label": "Menta modesta",
+    "value": "Modest Mint",
+    "icon": "images/Items/menta_modesta.png"
+  },
+  {
+    "label": "Leche Mu-mu",
+    "value": "Moomoo Milk",
+    "icon": "images/Items/leche_mu-mu.png"
+  },
+  {
+    "label": "Luna Ball",
+    "value": "Moon Ball",
+    "icon": "images/Items/luna_ball.png"
+  },
+  {
+    "label": "Piedra lunar",
+    "value": "Moon Stone",
+    "icon": "images/Items/piedra_lunar.png"
+  },
+  {
+    "label": "Cinta fuerte",
+    "value": "Muscle Band",
+    "icon": "images/Items/cinta_fuerte.png"
+  },
+  {
+    "label": "Pluma músculo",
+    "value": "Muscle Feather",
+    "icon": "images/Items/pluma_musculo.png"
+  },
+  {
+    "label": "Mochi músculo",
+    "value": "Muscle Mochi",
+    "icon": "images/Items/mochi_musculo.png"
+  },
+  {
+    "label": "Agua mística",
+    "value": "Mystic Water",
+    "icon": "images/Items/agua_mistica.png"
+  },
+  {
+    "label": "Menta ingenua",
+    "value": "Naive Mint",
+    "icon": "images/Items/menta_ingenua.png"
+  },
+  {
+    "label": "Menta pícara",
+    "value": "Naughty Mint",
+    "icon": "images/Items/menta_picara.png"
+  },
+  {
+    "label": "Nido Ball",
+    "value": "Nest Ball",
+    "icon": "images/Items/nido_ball.png"
+  },
+  {
+    "label": "Malla Ball",
+    "value": "Net Ball",
+    "icon": "images/Items/malla_ball.png"
+  },
+  {
+    "label": "Antiderretir",
+    "value": "Never-Melt Ice",
+    "icon": "images/Items/antiderretir.png"
+  },
+  {
+    "label": "Gema normal",
+    "value": "Normal Gem",
+    "icon": "images/Items/gema_normal.png"
+  },
+  {
+    "label": "Teralito normal",
+    "value": "Normal Tera Shard",
+    "icon": "images/Items/teralito_normal.png"
+  },
+  {
+    "label": "Pepita",
+    "value": "Nugget",
+    "icon": "images/Items/pepita.png"
+  },
+  {
+    "label": "Baya Caoca",
+    "value": "Occa Berry",
+    "icon": "images/Items/baya_caoca.png"
+  },
+  {
+    "label": "Baya Aranja",
+    "value": "Oran Berry",
+    "icon": "images/Items/baya_aranja.png"
+  },
+  {
+    "label": "Piedra oval",
+    "value": "Oval Stone",
+    "icon": "images/Items/piedra_oval.png"
+  },
+  {
+    "label": "PP máximos",
+    "value": "PP Max",
+    "icon": "images/Items/pp_maximos.png"
+  },
+  {
+    "label": "Más PP",
+    "value": "PP Up",
+    "icon": "images/Items/mas_pp.png"
+  },
+  {
+    "label": "Antiparalizador",
+    "value": "Paralyze Heal",
+    "icon": "images/Items/antiparalizador.png"
+  },
+  {
+    "label": "Baya Pasio",
+    "value": "Passho Berry",
+    "icon": "images/Items/baya_pasio.png"
+  },
+  {
+    "label": "Baya Payapa",
+    "value": "Payapa Berry",
+    "icon": "images/Items/baya_payapa.png"
+  },
+  {
+    "label": "Perla",
+    "value": "Pearl",
+    "icon": "images/Items/perla.png"
+  },
+  {
+    "label": "Sarta de perlas",
+    "value": "Pearl String",
+    "icon": "images/Items/sarta_de_perlas.png"
+  },
+  {
+    "label": "Baya Meloc",
+    "value": "Pecha Berry",
+    "icon": "images/Items/baya_meloc.png"
+  },
+  {
+    "label": "Baya Caquic",
+    "value": "Persim Berry",
+    "icon": "images/Items/baya_caquic.png"
+  },
+  {
+    "label": "Baya Yapati",
+    "value": "Petaya Berry",
+    "icon": "images/Items/baya_yapati.png"
+  },
+  {
+    "label": "Néctar rosa",
+    "value": "Pink Nectar",
+    "icon": "images/Items/nectar_rosa.png"
+  },
+  {
+    "label": "Tabla duende",
+    "value": "Pixie Plate",
+    "icon": "images/Items/tabla_duende.png"
+  },
+  {
+    "label": "Flecha venenosa",
+    "value": "Poison Barb",
+    "icon": "images/Items/flecha_venenosa.png"
+  },
+  {
+    "label": "Teralito veneno",
+    "value": "Poison Tera Shard",
+    "icon": "images/Items/teralito_veneno.png"
+  },
+  {
+    "label": "Baya Grana",
+    "value": "Pomeg Berry",
+    "icon": "images/Items/baya_grana.png"
+  },
+  {
+    "label": "Poción",
+    "value": "Potion",
+    "icon": "images/Items/pocion.png"
+  },
+  {
+    "label": "Franja recia",
+    "value": "Power Anklet",
+    "icon": "images/Items/franja_recia.png"
+  },
+  {
+    "label": "Banda recia",
+    "value": "Power Band",
+    "icon": "images/Items/banda_recia.png"
+  },
+  {
+    "label": "Cinto recio",
+    "value": "Power Belt",
+    "icon": "images/Items/cinto_recio.png"
+  },
+  {
+    "label": "Brazal recio",
+    "value": "Power Bracer",
+    "icon": "images/Items/brazal_recio.png"
+  },
+  {
+    "label": "Hierba única",
+    "value": "Power Herb",
+    "icon": "images/Items/hierba_unica.png"
+  },
+  {
+    "label": "Lente recia",
+    "value": "Power Lens",
+    "icon": "images/Items/lente_recia.png"
+  },
+  {
+    "label": "Pesa recia",
+    "value": "Power Weight",
+    "icon": "images/Items/pesa_recia.png"
+  },
+  {
+    "label": "Honor Ball",
+    "value": "Premier Ball",
+    "icon": "images/Items/honor_ball.png"
+  },
+  {
+    "label": "Pluma bella",
+    "value": "Pretty Feather",
+    "icon": "images/Items/pluma_bella.png"
+  },
+  {
+    "label": "Paracontacto",
+    "value": "Protective Pads",
+    "icon": "images/Items/paracontacto.png"
+  },
+  {
+    "label": "Proteína",
+    "value": "Protein",
+    "icon": "images/Items/proteina.png"
+  },
+  {
+    "label": "Semilla psique",
+    "value": "Psychic Seed",
+    "icon": "images/Items/semilla_psique.png"
+  },
+  {
+    "label": "Teralito psíquico",
+    "value": "Psychic Tera Shard",
+    "icon": "images/Items/teralito_psiquico.png"
+  },
+  {
+    "label": "Guante de boxeo",
+    "value": "Punching Glove",
+    "icon": "images/Items/guante_de_boxeo.png"
+  },
+  {
+    "label": "Néctar violeta",
+    "value": "Purple Nectar",
+    "icon": "images/Items/nectar_violeta.png"
+  },
+  {
+    "label": "Baya Ispero",
+    "value": "Qualot Berry",
+    "icon": "images/Items/baya_ispero.png"
+  },
+  {
+    "label": "Veloz Ball",
+    "value": "Quick Ball",
+    "icon": "images/Items/veloz_ball.png"
+  },
+  {
+    "label": "Garra rápida",
+    "value": "Quick Claw",
+    "icon": "images/Items/garra_rapida.png"
+  },
+  {
+    "label": "Menta mansa",
+    "value": "Quiet Mint",
+    "icon": "images/Items/menta_mansa.png"
+  },
+  {
+    "label": "Hueso raro",
+    "value": "Rare Bone",
+    "icon": "images/Items/hueso_raro.png"
+  },
+  {
+    "label": "Caramelo raro4",
+    "value": "Rare Candy",
+    "icon": "images/Items/caramelo_raro4.png"
+  },
+  {
+    "label": "Menta alocada",
+    "value": "Rash Mint",
+    "icon": "images/Items/menta_alocada.png"
+  },
+  {
+    "label": "Baya Safre",
+    "value": "Rawst Berry",
+    "icon": "images/Items/baya_safre.png"
+  },
+  {
+    "label": "Garra afilada27",
+    "value": "Razor Claw",
+    "icon": "images/Items/garra_afilada27.png"
+  },
+  {
+    "label": "Colmillo agudo28",
+    "value": "Razor Fang",
+    "icon": "images/Items/colmillo_agudo28.png"
+  },
+  {
+    "label": "Tarjeta roja",
+    "value": "Red Card",
+    "icon": "images/Items/tarjeta_roja.png"
+  },
+  {
+    "label": "Néctar rojo",
+    "value": "Red Nectar",
+    "icon": "images/Items/nectar_rojo.png"
+  },
+  {
+    "label": "Menta plácida",
+    "value": "Relaxed Mint",
+    "icon": "images/Items/menta_placida.png"
+  },
+  {
+    "label": "Acopio Ball",
+    "value": "Repeat Ball",
+    "icon": "images/Items/acopio_ball.png"
+  },
+  {
+    "label": "Pluma aguante",
+    "value": "Resist Feather",
+    "icon": "images/Items/pluma_aguante.png"
+  },
+  {
+    "label": "Mochi aguante",
+    "value": "Resist Mochi",
+    "icon": "images/Items/mochi_aguante.png"
+  },
+  {
+    "label": "Hierba revivir",
+    "value": "Revival Herb",
+    "icon": "images/Items/hierba_revivir.png"
+  },
+  {
+    "label": "Revivir",
+    "value": "Revive",
+    "icon": "images/Items/revivir.png"
+  },
+  {
+    "label": "Baya Tamar",
+    "value": "Rindo Berry",
+    "icon": "images/Items/baya_tamar.png"
+  },
+  {
+    "label": "Blanco",
+    "value": "Ring Target",
+    "icon": "images/Items/blanco.png"
+  },
+  {
+    "label": "Teralito roca",
+    "value": "Rock Tera Shard",
+    "icon": "images/Items/teralito_roca.png"
+  },
+  {
+    "label": "Casco dentado",
+    "value": "Rocky Helmet",
+    "icon": "images/Items/casco_dentado.png"
+  },
+  {
+    "label": "Servicio raro",
+    "value": "Room Service",
+    "icon": "images/Items/servicio_raro.png"
+  },
+  {
+    "label": "Baya Hibis",
+    "value": "Roseli Berry",
+    "icon": "images/Items/baya_hibis.png"
+  },
+  {
+    "label": "Escudo oxidado",
+    "value": "Rusted Shield",
+    "icon": "images/Items/escudo_oxidado.png"
+  },
+  {
+    "label": "Espada oxidada",
+    "value": "Rusted Sword",
+    "icon": "images/Items/espada_oxidada.png"
+  },
+  {
+    "label": "Gafa protectora",
+    "value": "Safety Goggles",
+    "icon": "images/Items/gafa_protectora.png"
+  },
+  {
+    "label": "Baya Aslac",
+    "value": "Salac Berry",
+    "icon": "images/Items/baya_aslac.png"
+  },
+  {
+    "label": "Menta grosera",
+    "value": "Sassy Mint",
+    "icon": "images/Items/menta_grosera.png"
+  },
+  {
+    "label": "Periscopio",
+    "value": "Scope Lens",
+    "icon": "images/Items/periscopio.png"
+  },
+  {
+    "label": "Menta seria",
+    "value": "Serious Mint",
+    "icon": "images/Items/menta_seria.png"
+  },
+  {
+    "label": "Pico afilado",
+    "value": "Sharp Beak",
+    "icon": "images/Items/pico_afilado.png"
+  },
+  {
+    "label": "Muda concha",
+    "value": "Shed Shell",
+    "icon": "images/Items/muda_concha.png"
+  },
+  {
+    "label": "Cascabel concha20",
+    "value": "Shell Bell",
+    "icon": "images/Items/cascabel_concha20.png"
+  },
+  {
+    "label": "Piedra día",
+    "value": "Shiny Stone",
+    "icon": "images/Items/piedra_dia.png"
+  },
+  {
+    "label": "Baya Acardo",
+    "value": "Shuca Berry",
+    "icon": "images/Items/baya_acardo.png"
+  },
+  {
+    "label": "Pañuelo de seda",
+    "value": "Silk Scarf",
+    "icon": "images/Items/panuelo_de_seda.png"
+  },
+  {
+    "label": "Polvo plata",
+    "value": "Silver Powder",
+    "icon": "images/Items/polvo_plata.png"
+  },
+  {
+    "label": "Baya Zidra",
+    "value": "Sitrus Berry",
+    "icon": "images/Items/baya_zidra.png"
+  },
+  {
+    "label": "Tabla cielo",
+    "value": "Sky Plate",
+    "icon": "images/Items/tabla_cielo.png"
+  },
+  {
+    "label": "Bola de humo16",
+    "value": "Smoke Ball",
+    "icon": "images/Items/bola_de_humo16.png"
+  },
+  {
+    "label": "Roca suave",
+    "value": "Smooth Rock",
+    "icon": "images/Items/roca_suave.png"
+  },
+  {
+    "label": "Bola de nieve",
+    "value": "Snowball",
+    "icon": "images/Items/bola_de_nieve.png"
+  },
+  {
+    "label": "Refresco",
+    "value": "Soda Pop",
+    "icon": "images/Items/refresco.png"
+  },
+  {
+    "label": "Arena fina",
+    "value": "Soft Sand",
+    "icon": "images/Items/arena_fina.png"
+  },
+  {
+    "label": "Cascabel alivio14",
+    "value": "Soothe Bell",
+    "icon": "images/Items/cascabel_alivio14.png"
+  },
+  {
+    "label": "Hechizo",
+    "value": "Spell Tag",
+    "icon": "images/Items/hechizo.png"
+  },
+  {
+    "label": "Tabla linfa",
+    "value": "Splash Plate",
+    "icon": "images/Items/tabla_linfa.png"
+  },
+  {
+    "label": "Tabla terror",
+    "value": "Spooky Plate",
+    "icon": "images/Items/tabla_terror.png"
+  },
+  {
+    "label": "Trozo estrella",
+    "value": "Star Piece",
+    "icon": "images/Items/trozo_estrella.png"
+  },
+  {
+    "label": "Polvo estelar",
+    "value": "Stardust",
+    "icon": "images/Items/polvo_estelar.png"
+  },
+  {
+    "label": "Baya Arabol",
+    "value": "Starf Berry",
+    "icon": "images/Items/baya_arabol.png"
+  },
+  {
+    "label": "Teralito acero",
+    "value": "Steel Tera Shard",
+    "icon": "images/Items/teralito_acero.png"
+  },
+  {
+    "label": "Toxiestrella",
+    "value": "Sticky Barb",
+    "icon": "images/Items/toxiestrella.png"
+  },
+  {
+    "label": "Tabla pétrea",
+    "value": "Stone Plate",
+    "icon": "images/Items/tabla_petrea.png"
+  },
+  {
+    "label": "Piedra solar",
+    "value": "Sun Stone",
+    "icon": "images/Items/piedra_solar.png"
+  },
+  {
+    "label": "Superpoción",
+    "value": "Super Potion",
+    "icon": "images/Items/superpocion.png"
+  },
+  {
+    "label": "Manzana dulce",
+    "value": "Sweet Apple",
+    "icon": "images/Items/manzana_dulce.png"
+  },
+  {
+    "label": "Pluma ímpetu",
+    "value": "Swift Feather",
+    "icon": "images/Items/pluma_impetu.png"
+  },
+  {
+    "label": "Mochi ímpetu",
+    "value": "Swift Mochi",
+    "icon": "images/Items/mochi_impetu.png"
+  },
+  {
+    "label": "Manzana melosa",
+    "value": "Syrupy Apple",
+    "icon": "images/Items/manzana_melosa.png"
+  },
+  {
+    "label": "Baya Tamate",
+    "value": "Tamato Berry",
+    "icon": "images/Items/baya_tamate.png"
+  },
+  {
+    "label": "Baya Yecana",
+    "value": "Tanga Berry",
+    "icon": "images/Items/baya_yecana.png"
+  },
+  {
+    "label": "Manzana ácida",
+    "value": "Tart Apple",
+    "icon": "images/Items/manzana_acida.png"
+  },
+  {
+    "label": "Cubresuelos",
+    "value": "Terrain Extender",
+    "icon": "images/Items/cubresuelos.png"
+  },
+  {
+    "label": "Espray bucal",
+    "value": "Throat Spray",
+    "icon": "images/Items/espray_bucal.png"
+  },
+  {
+    "label": "Piedra trueno9",
+    "value": "Thunder Stone",
+    "icon": "images/Items/piedra_trueno9.png"
+  },
+  {
+    "label": "Turno Ball",
+    "value": "Timer Ball",
+    "icon": "images/Items/turno_ball.png"
+  },
+  {
+    "label": "Menta miedosa",
+    "value": "Timid Mint",
+    "icon": "images/Items/menta_miedosa.png"
+  },
+  {
+    "label": "Bambú pequeño",
+    "value": "Tiny Bamboo Shoot",
+    "icon": "images/Items/bambu_pequeno.png"
+  },
+  {
+    "label": "Miniseta",
+    "value": "Tiny Mushroom",
+    "icon": "images/Items/miniseta.png"
+  },
+  {
+    "label": "Toxisfera",
+    "value": "Toxic Orb",
+    "icon": "images/Items/toxisfera.png"
+  },
+  {
+    "label": "Tabla tóxica",
+    "value": "Toxic Plate",
+    "icon": "images/Items/tabla_toxica.png"
+  },
+  {
+    "label": "Cuchara torcida",
+    "value": "Twisted Spoon",
+    "icon": "images/Items/cuchara_torcida.png"
+  },
+  {
+    "label": "Ultra Ball",
+    "value": "Ultra Ball",
+    "icon": "images/Items/ultra_ball.png"
+  },
+  {
+    "label": "Parasol multiuso",
+    "value": "Utility Umbrella",
+    "icon": "images/Items/parasol_multiuso.png"
+  },
+  {
+    "label": "Baya Gualot",
+    "value": "Wacan Berry",
+    "icon": "images/Items/baya_gualot.png"
+  },
+  {
+    "label": "Piedra agua",
+    "value": "Water Stone",
+    "icon": "images/Items/piedra_agua.png"
+  },
+  {
+    "label": "Teralito agua",
+    "value": "Water Tera Shard",
+    "icon": "images/Items/teralito_agua.png"
+  },
+  {
+    "label": "Seguro debilidad",
+    "value": "Weakness Policy",
+    "icon": "images/Items/seguro_debilidad.png"
+  },
+  {
+    "label": "Máscara fuente",
+    "value": "Wellspring Mask",
+    "icon": "images/Items/mascara_fuente.png"
+  },
+  {
+    "label": "Hierba blanca",
+    "value": "White Herb",
+    "icon": "images/Items/hierba_blanca.png"
+  },
+  {
+    "label": "Lupa",
+    "value": "Wide Lens",
+    "icon": "images/Items/lupa.png"
+  },
+  {
+    "label": "Baya Wiki",
+    "value": "Wiki Berry",
+    "icon": "images/Items/baya_wiki.png"
+  },
+  {
+    "label": "Gafas especiales",
+    "value": "Wise Glasses",
+    "icon": "images/Items/gafas_especiales.png"
+  },
+  {
+    "label": "Precisión X",
+    "value": "X Accuracy",
+    "icon": "images/Items/precision_x.png"
+  },
+  {
+    "label": "Ataque X",
+    "value": "X Attack",
+    "icon": "images/Items/ataque_x.png"
+  },
+  {
+    "label": "Defensa X",
+    "value": "X Defense",
+    "icon": "images/Items/defensa_x.png"
+  },
+  {
+    "label": "Ataque especial X",
+    "value": "X Sp. Atk",
+    "icon": "images/Items/ataque_especial_x.png"
+  },
+  {
+    "label": "Defensa especial X",
+    "value": "X Sp. Def",
+    "icon": "images/Items/defensa_especial_x.png"
+  },
+  {
+    "label": "Velocidad X",
+    "value": "X Speed",
+    "icon": "images/Items/velocidad_x.png"
+  },
+  {
+    "label": "Baya Rimoya",
+    "value": "Yache Berry",
+    "icon": "images/Items/baya_rimoya.png"
+  },
+  {
+    "label": "Néctar amarillo",
+    "value": "Yellow Nectar",
+    "icon": "images/Items/nectar_amarillo.png"
+  },
+  {
+    "label": "Tabla trueno",
+    "value": "Zap Plate",
+    "icon": "images/Items/tabla_trueno.png"
+  },
+  {
+    "label": "Zinc",
+    "value": "Zinc",
+    "icon": "images/Items/zinc.png"
+  },
+  {
+    "label": "Telescopio",
+    "value": "Zoom Lens",
+    "icon": "images/Items/telescopio.png"
+  }
+]

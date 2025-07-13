@@ -168,11 +168,10 @@ function updateCopyText() {
     if (language) text += `\nLanguage: ${language}`;
     if (level) text += `\nLevel: ${level}`;
     if (abilityEs) text += `\nAbility: ${abilityEn.split(" ")[0]}`;
-    if (nature) {
-      const match = nature.match(/^(\w+)/);
-      const natureName = match ? match[1] : nature;
-      text += `\nNature: ${natureName}`;
-    }
+if (nature) {
+  text += `\n${nature} Nature`;
+}
+
   }
 
   if (scaleTouched && currentPokemon) {
@@ -304,23 +303,41 @@ function updateMoveDropdowns() {
 
 // Captura de valores de EVs e IVs
 function getEVs() {
+  const statMap = {
+    hp: "HP",
+    atk: "Atk",
+    def: "Def",
+    spAtk: "SpA",
+    spDef: "SpD",
+    speed: "Spe"
+  };
   const sliders = document.querySelectorAll(".ev-slider");
   let evs = [];
   sliders.forEach(slider => {
     const value = parseInt(slider.value);
-    if (value > 0) {
-      evs.push(value + " " + slider.dataset.stat);
+    const stat = statMap[slider.dataset.stat];
+    if (value > 0 && stat) {
+      evs.push(value + " " + stat);
     }
   });
   return evs.length > 0 ? "EVs: " + evs.join(" / ") : "";
 }
 
 function getIVs() {
+  const statMap = {
+    hp: "HP",
+    atk: "Atk",
+    def: "Def",
+    spAtk: "SpA",
+    spDef: "SpD",
+    speed: "Spe"
+  };
   const inputs = document.querySelectorAll(".iv-input");
   let ivs = [];
   inputs.forEach(input => {
-    if (input.dataset.touched === "true" || input.value != "31") {
-      ivs.push(input.value + " " + input.dataset.stat);
+    const stat = statMap[input.dataset.stat];
+    if ((input.dataset.touched === "true" || input.value != "31") && stat) {
+      ivs.push(input.value + " " + stat);
     }
   });
   return ivs.length > 0 ? "IVs: " + ivs.join(" / ") : "";
@@ -347,7 +364,7 @@ document.querySelectorAll(".ev-slider").forEach(slider => {
       total += parseInt(s.value);
     });
 
-    if (total > 510) {
+    if (total > 508) {
       // Si excede, revertimos el valor al anterior
       slider.value = slider.dataset.lastValid || 0;
     } else {
@@ -358,7 +375,7 @@ document.querySelectorAll(".ev-slider").forEach(slider => {
 
     // Mostrar advertencia si excede
     const warning = document.getElementById("evWarning");
-    if (total > 510) {
+    if (total > 508) {
       warning.style.display = "block";
     } else {
       warning.style.display = "none";
@@ -391,6 +408,26 @@ function cargarItemsDesdeJson() {
 
 document.addEventListener("DOMContentLoaded", () => {
   cargarItemsDesdeJson();
+  cargarItemsDesdeJson();
+cargarNaturalezasDesdeJson();
+renderEVsAndIVs();
+
+
+  // Cargar naturalezas desde JSON
+function cargarNaturalezasDesdeJson() {
+  fetch("data/natures.json")
+    .then(response => response.json())
+    .then(data => {
+      natureSelect.innerHTML = '<option value="">Selecciona una naturaleza</option>';
+      data.forEach(nature => {
+        const option = document.createElement("option");
+        option.value = nature.value; // ejemplo: "Hasty"
+        option.textContent = nature.label; // ejemplo: "Activa (+Vel -Def)"
+        natureSelect.appendChild(option);
+      });
+    })
+    .catch(err => console.error("Error cargando naturalezas:", err));
+}
 });
 
 
@@ -455,4 +492,98 @@ function buildShowdownText(data) {
   if (data.nature) lines.push(`Nature: ${data.nature}`);
 
   return lines.join("\n");
+}
+
+function renderEVsAndIVs() {
+  const stats = ["hp", "atk", "def", "spAtk", "spDef", "speed"];
+  const statLabels = {
+    hp: "HP",
+    atk: "Atk",
+    def: "Def",
+    spAtk: "SpA",
+    spDef: "SpD",
+    speed: "Spe"
+  };
+
+  const evContainer = document.getElementById("evSliders");
+  const ivContainer = document.getElementById("ivInputs");
+
+  evContainer.innerHTML = "";
+  ivContainer.innerHTML = "";
+
+  stats.forEach(stat => {
+    // EV Slider
+    const evDiv = document.createElement("div");
+    evDiv.classList.add("slider-container");
+
+    const evLabel = document.createElement("label");
+    evLabel.textContent = statLabels[stat];
+    evLabel.setAttribute("for", `ev-${stat}`);
+
+    const evSlider = document.createElement("input");
+    evSlider.type = "range";
+    evSlider.min = 0;
+    evSlider.max = 252;
+    evSlider.value = 0;
+    evSlider.classList.add("ev-slider");
+    evSlider.setAttribute("data-stat", stat);
+    evSlider.id = `ev-${stat}`;
+
+    const evValue = document.createElement("span");
+    evValue.classList.add("ev-value");
+    evValue.textContent = "0";
+
+    evSlider.addEventListener("input", () => {
+      const total = Array.from(document.querySelectorAll(".ev-slider"))
+        .map(s => parseInt(s.value))
+        .reduce((a, b) => a + b, 0);
+
+      if (total > 508) {
+        evSlider.value = evSlider.dataset.lastValid || 0;
+      } else {
+        evSlider.dataset.lastValid = evSlider.value;
+        evValue.textContent = evSlider.value;
+      }
+
+      const warning = document.getElementById("evWarning");
+      if (total > 508) {
+        warning.style.display = "block";
+      } else {
+        warning.style.display = "none";
+      }
+
+      updateCopyText();
+    });
+
+    evDiv.appendChild(evLabel);
+    evDiv.appendChild(evSlider);
+    evDiv.appendChild(evValue);
+    evContainer.appendChild(evDiv);
+
+    // IV Input
+    const ivDiv = document.createElement("div");
+    ivDiv.classList.add("iv-container");
+
+    const ivLabel = document.createElement("label");
+    ivLabel.textContent = statLabels[stat];
+    ivLabel.setAttribute("for", `iv-${stat}`);
+
+    const ivInput = document.createElement("input");
+    ivInput.type = "number";
+    ivInput.min = 0;
+    ivInput.max = 31;
+    ivInput.value = 31;
+    ivInput.classList.add("iv-input");
+    ivInput.setAttribute("data-stat", stat);
+    ivInput.id = `iv-${stat}`;
+
+    ivInput.addEventListener("input", () => {
+      ivInput.dataset.touched = "true";
+      updateCopyText();
+    });
+
+    ivDiv.appendChild(ivLabel);
+    ivDiv.appendChild(ivInput);
+    ivContainer.appendChild(ivDiv);
+  });
 }

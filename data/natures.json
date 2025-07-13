@@ -1,0 +1,90 @@
+[
+  {
+    "label": "Activa (+Vel -Def)",
+    "value": "Hasty"
+  },
+  {
+    "label": "Alegre (+Vel -AtqEsp)",
+    "value": "Jolly"
+  },
+  {
+    "label": "Audaz (+Atq -Vel)",
+    "value": "Brave"
+  },
+  {
+    "label": "Cauta (+DefEsp -AtqEsp)",
+    "value": "Careful"
+  },
+  {
+    "label": "Firme (+Atq -AtqEsp)",
+    "value": "Adamant"
+  },
+  {
+    "label": "Floja (+Def -Vel)",
+    "value": "Relaxed"
+  },
+  {
+    "label": "Fuerte (+Atq -DefEsp)",
+    "value": "Lonely"
+  },
+  {
+    "label": "Ingenua (+Vel -DefEsp)",
+    "value": "Naive"
+  },
+  {
+    "label": "Mansa (+AtqEsp -Atq)",
+    "value": "Mild"
+  },
+  {
+    "label": "Miedosa (+Vel -Atq)",
+    "value": "Timid"
+  },
+  {
+    "label": "Modesta (+AtqEsp -Atq)",
+    "value": "Modest"
+  },
+  {
+    "label": "Pícara (+Vel -Def)",
+    "value": "Rash"
+  },
+  {
+    "label": "Serena (+DefEsp -Atq)",
+    "value": "Calm"
+  },
+  {
+    "label": "Seria (+Def -Vel)",
+    "value": "Lax"
+  },
+  {
+    "label": "Agitada (+Def -DefEsp)",
+    "value": "Bold"
+  },
+  {
+    "label": "Plácida (+DefEsp -Vel)",
+    "value": "Sassy"
+  },
+  {
+    "label": "Dócil (+Nada)",
+    "value": "Docile"
+  },
+  {
+    "label": "Serena (+Nada)",
+    "value": "Serious"
+  },
+  {
+    "label": "Rara (+Nada)",
+    "value": "Quirky"
+  },
+  {
+    "label": "Fuerte (+Nada)",
+    "value": "Hardy"
+  },
+  {
+    "label": "Floja (+Nada)",
+    "value": "Bashful"
+  },
+  {
+    "label": "Mansa (+Nada)",
+    "value": "Gentle"
+  }
+]

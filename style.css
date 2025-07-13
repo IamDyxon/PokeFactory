@@ -109,7 +109,7 @@ input, select {
 }
 .ev-slider-wrapper span {
   width: 30px;
-  text-align: right;
+  text-align: left;
   font-weight: bold;
 }
 .iv-input-wrapper {
@@ -131,4 +131,51 @@ input, select {
 #evTotalDisplay {
   margin-top: 0.5rem;
   font-size: 0.95rem;
+}
+
+.ev-iv-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: start;
+  max-width: 600px;
+}
+
+
+#evSliders label,
+#ivInputs label {
+  width: auto;
+  margin-right: 8px;
+  min-width: 90px;
+  text-align: left;
+}
+
+
+.ev-slider {
+  flex-grow: 1;
+  max-width: 100%;
+  margin: 0 8px;
+}
+
+
+.ev-value {
+  width: 30px;
+  text-align: left;
+}
+
+.iv-input {
+  width: 50px;
+  margin-left: 8px;
+}
+
+.slider-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 30px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.slider-container label {
+  text-align: left !important;
 }
